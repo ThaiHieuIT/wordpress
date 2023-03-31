@@ -1,0 +1,1865 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Logo Carousel v3.4.9\n"
+"POT-Creation-Date: 2022-06-13 14:38+0600\n"
+"PO-Revision-Date: 2022-06-13 14:39+0600\n"
+"Last-Translator: \n"
+"Language-Team: ShapedPlugin <support@shapedplugin.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;esc_html__;esc_html_e;"
+"esc_html_x;esc_attr__;esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/ElementBlock/Logo_Carousel_Free_Element_Shortcode_Widget.php:40
+msgid "Logo Carousel Free"
+msgstr ""
+
+#: admin/ElementBlock/Logo_Carousel_Free_Element_Shortcode_Widget.php:99
+#: admin/ElementBlock_Deprecated/Logo_Carousel_Free_Element_Shortcode_Widget_Deprecated.php:99
+msgid "Content"
+msgstr ""
+
+#: admin/ElementBlock/Logo_Carousel_Free_Element_Shortcode_Widget.php:107
+#: admin/ElementBlock_Deprecated/Logo_Carousel_Free_Element_Shortcode_Widget_Deprecated.php:107
+msgid "Logo Carousel Free Shortcode(s)"
+msgstr ""
+
+#: admin/ElementBlock_Deprecated/Logo_Carousel_Free_Element_Shortcode_Widget_Deprecated.php:40
+msgid "Logo Carousel Free Deprecated"
+msgstr ""
+
+#: admin/GutenbergBlock/src/index.js:18 admin/GutenbergBlock/src/index.js:81
+#: admin/GutenbergBlock/src/index.js:113 class/logo.php:86
+#: class/shortcode.php:61
+msgid "Logo Carousel"
+msgstr ""
+
+#: admin/GutenbergBlock/src/index.js:19
+msgid "Use Logo Carousel Pro to insert a carousel (shortcode) in your page."
+msgstr ""
+
+#: admin/GutenbergBlock/src/index.js:84
+msgid "No logo carousel found. "
+msgstr ""
+
+#: admin/GutenbergBlock/src/index.js:86
+msgid "Create a carousel (shortcode) now!"
+msgstr ""
+
+#: admin/GutenbergBlock/src/index.js:115
+msgid "Select a carousel (shortcode)"
+msgstr ""
+
+#: admin/GutenbergBlock/src/shortcode/dynamicShortcode.js:13
+msgid "-- Select a carousel (shortcode) --"
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:330
+msgid "Error while saving the changes."
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:406
+msgid "Settings successfully imported."
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:418
+#: admin/views/sp-framework/classes/admin-options.class.php:433
+msgid "Default settings restored."
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:494
+msgid "Settings saved."
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:697
+msgid "show all settings"
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:699
+#: admin/views/sp-framework/fields/icon/icon.php:95
+#: admin/views/sp-framework/fields/map/map.php:63
+msgid "Search..."
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:702
+#: admin/views/sp-framework/classes/admin-options.class.php:821
+msgid "Save"
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:702
+#: admin/views/sp-framework/classes/admin-options.class.php:821
+msgid "Saving..."
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:703
+#: admin/views/sp-framework/classes/admin-options.class.php:822
+msgid "Reset Section"
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:703
+#: admin/views/sp-framework/classes/admin-options.class.php:822
+msgid "Are you sure to reset this section options?"
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:704
+#: admin/views/sp-framework/classes/admin-options.class.php:823
+msgid "Reset All"
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:704
+#: admin/views/sp-framework/classes/admin-options.class.php:823
+#: admin/views/sp-framework/classes/metabox-options.class.php:443
+msgid "Reset"
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:704
+#: admin/views/sp-framework/classes/admin-options.class.php:823
+msgid "Are you sure you want to reset all settings to default values?"
+msgstr ""
+
+#: admin/views/sp-framework/classes/admin-options.class.php:799
+#: admin/views/sp-framework/classes/metabox-options.class.php:427
+#: admin/views/sp-framework/fields/button_set/button_set.php:85
+#: admin/views/sp-framework/fields/checkbox/checkbox.php:101
+#: admin/views/sp-framework/fields/radio/radio.php:104
+#: admin/views/sp-framework/fields/select/select.php:135
+#: admin/views/sp-framework/functions/actions.php:48
+msgid "No data available."
+msgstr ""
+
+#: admin/views/sp-framework/classes/metabox-options.class.php:337 main.php:351
+msgid "Shortcode"
+msgstr ""
+
+#: admin/views/sp-framework/classes/metabox-options.class.php:338
+msgid "Copy and paste this shortcode into your posts or pages:"
+msgstr ""
+
+#: admin/views/sp-framework/classes/metabox-options.class.php:340
+#: admin/views/sp-framework/classes/metabox-options.class.php:351
+msgid "Shortcode  Copied to Clipboard! "
+msgstr ""
+
+#: admin/views/sp-framework/classes/metabox-options.class.php:348
+msgid "Template Include"
+msgstr ""
+
+#: admin/views/sp-framework/classes/metabox-options.class.php:349
+msgid "Paste the PHP code into your template file:"
+msgstr ""
+
+#: admin/views/sp-framework/classes/metabox-options.class.php:444
+msgid "update post"
+msgstr ""
+
+#: admin/views/sp-framework/classes/metabox-options.class.php:444
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:501
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:502
+#, php-format
+msgid "Please enter %s or more characters"
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:503
+msgid "Searching..."
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:504
+msgid "No results found."
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:595
+msgid "Oops! Not allowed."
+msgstr ""
+
+#: admin/views/sp-framework/classes/setup.class.php:662
+#: admin/views/sp-framework/classes/setup.class.php:665
+msgid "Field not found!"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:21
+msgid "Shortcode Options"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:34
+msgid "General Settings"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:41
+msgid "Layout Preset"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:42
+msgid "Select your layout to display the logos."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:43
+msgid ""
+"To unlock Grid, Isotope, List, and Inline layouts and Settings, <b><a href="
+"\"https://logocarousel.com/?ref=1\" target=\"_blank"
+"\">Upgrade To Pro</a></b>!"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:47
+msgid "Carousel"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:51
+msgid "Grid"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:56
+msgid "Isotope"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:61
+msgid "List"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:66
+msgid "Inline"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:75
+msgid "Carousel Mode"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:76
+msgid "Select a carousel mode."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:79
+msgid "Standard"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:80
+msgid "Ticker"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:81
+#: admin/views/sp-framework/fields/typography/typography.php:220
+msgid "Center"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:89
+msgid "Logo Column(s)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:90
+msgid "Set number of column(s) in different devices for responsive view."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:105
+msgid "Filter Logos"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:106
+msgid "Select an option to display by filtering logos."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:108
+msgid "All"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:110
+msgid "Category(Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:114
+msgid "Specific(Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:124
+msgid "Limit"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:125
+msgid "Number of total logos to show."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:126
+msgid "Leave it empty to show all found logos."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:134
+msgid "Logo Link Type "
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:135
+msgid "Select a logo link type."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:138
+msgid "Link "
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:139
+msgid "Popup "
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:140
+#: admin/views/sp-framework/config/metabox.config.php:442
+#: admin/views/sp-framework/config/metabox.config.php:520
+#: admin/views/sp-framework/fields/border/border.php:90
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:98
+#: admin/views/sp-framework/fields/typography/typography.php:257
+#: admin/views/sp-framework/fields/typography/typography.php:276
+msgid "None"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:148
+msgid "Order by"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:149
+msgid "Select an order by option."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:151
+#: includes/functions.php:20
+msgid "Title"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:152
+#: includes/functions.php:22 main.php:353
+msgid "Date"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:153
+msgid "Drag & Drop (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:154
+msgid "Random (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:161
+msgid "Order"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:162
+msgid "Select an order option."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:164
+msgid "Ascending"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:165
+msgid "Descending"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:172
+msgid "Preloader"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:173
+msgid "Carousel will be hidden until page load completed."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:175
+#: admin/views/sp-framework/config/metabox.config.php:534
+#: admin/views/sp-framework/config/metabox.config.php:621
+#: admin/views/sp-framework/config/metabox.config.php:660
+#: admin/views/sp-framework/config/metabox.config.php:692
+#: admin/views/sp-framework/config/metabox.config.php:869
+#: admin/views/sp-framework/config/metabox.config.php:878
+#: admin/views/sp-framework/fields/sorter/sorter.php:49
+msgid "Enabled"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:176
+#: admin/views/sp-framework/config/metabox.config.php:535
+#: admin/views/sp-framework/config/metabox.config.php:622
+#: admin/views/sp-framework/config/metabox.config.php:661
+#: admin/views/sp-framework/config/metabox.config.php:693
+#: admin/views/sp-framework/config/metabox.config.php:870
+#: admin/views/sp-framework/config/metabox.config.php:879
+#: admin/views/sp-framework/fields/sorter/sorter.php:50
+msgid "Disabled"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:187
+msgid "Style Settings"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:193
+msgid "Section Title"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:194
+msgid "Display logo section title."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:196
+#: admin/views/sp-framework/config/metabox.config.php:306
+#: admin/views/sp-framework/config/metabox.config.php:465
+#: admin/views/sp-framework/config/metabox.config.php:738
+#: admin/views/sp-framework/config/metabox.config.php:827
+msgid "Show"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:197
+#: admin/views/sp-framework/config/metabox.config.php:307
+#: admin/views/sp-framework/config/metabox.config.php:466
+#: admin/views/sp-framework/config/metabox.config.php:739
+#: admin/views/sp-framework/config/metabox.config.php:828
+msgid "Hide"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:203
+msgid "Section Title Margin Bottom"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:204
+msgid "Set margin bottom for the section title."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:213
+#: admin/views/sp-framework/config/metabox.config.php:225
+#: admin/views/sp-framework/config/metabox.config.php:332
+msgid "px"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:221
+msgid "Logo Margin"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:222
+msgid "Set a margin or space between the logos."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:253
+msgid "Logo Position"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:254
+msgid "Choose your logo position to display the logos."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:258
+#: admin/views/sp-framework/fields/typography/typography.php:164
+#: admin/views/sp-framework/fields/typography/typography.php:190
+#: admin/views/sp-framework/fields/typography/typography.php:206
+#: admin/views/sp-framework/fields/typography/typography.php:226
+#: admin/views/sp-framework/fields/typography/typography.php:244
+#: admin/views/sp-framework/fields/typography/typography.php:263
+#: admin/views/sp-framework/fields/typography/typography.php:286
+msgid "Default"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:262
+#: admin/views/sp-framework/config/metabox.config.php:317
+msgid "Top"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:267
+#: admin/views/sp-framework/config/metabox.config.php:318
+msgid "Bottom"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:272
+#: admin/views/sp-framework/config/metabox.config.php:319
+#: admin/views/sp-framework/fields/typography/typography.php:219
+msgid "Left"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:277
+#: admin/views/sp-framework/config/metabox.config.php:320
+#: admin/views/sp-framework/fields/typography/typography.php:221
+msgid "Right"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:282
+#: admin/views/sp-framework/fields/background/background.php:351
+msgid "Overlay"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:286
+msgid ""
+"To display logo with content, changing positions, read more button, etc, <a "
+"href=\"https://logocarousel.com/?ref=1\" target="
+"\"_blank\"><b>Upgrade To Pro!</b></a>"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:292
+#: admin/views/sp-framework/config/metabox.config.php:303
+msgid "Tooltip"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:297
+msgid ""
+"To unlock the following amazing tooltip settings, <a href=\"https://"
+"logocarousel.com/?ref=1\" target=\"_blank"
+"\"><b>Upgrade To Pro!</b></a>"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:304
+msgid "Show/Hide logo tooltip on hover."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:314
+#: admin/views/sp-framework/config/metabox.config.php:755
+msgid "Position"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:315
+msgid "Select the tooltip position."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:329
+msgid "Tooltip Width"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:330
+msgid "Maximum width of the tooltip."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:340
+msgid "Tooltip Effect"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:341
+msgid "Choose an effect for the tooltip."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:343
+msgid "Grow"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:344
+msgid "Fade"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:345
+msgid "Swing"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:346
+msgid "Slide"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:347
+msgid "Fall"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:356
+msgid "Tooltip Color"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:357
+msgid "Set tooltip color."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:359
+#: admin/views/sp-framework/config/metabox.config.php:778
+#: admin/views/sp-framework/config/metabox.config.php:781
+#: admin/views/sp-framework/config/metabox.config.php:843
+#: admin/views/sp-framework/config/metabox.config.php:846
+#: admin/views/sp-framework/fields/background/background.php:356
+msgid "Color"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:360
+#: admin/views/sp-framework/config/metabox.config.php:385
+#: admin/views/sp-framework/config/metabox.config.php:783
+msgid "Background"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:371
+msgid "Background, Border and BoxShadow"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:376
+msgid ""
+"To unlock logo background, radius, and boxshadow settings, <a href=\"https://"
+"logocarousel.com/?ref=1\" target=\"_blank"
+"\"><b>Upgrade To Pro!</b></a>"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:382
+msgid "Logo Background Color"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:383
+msgid "Set the logo background color."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:386
+#: admin/views/sp-framework/config/metabox.config.php:784
+msgid "Hover Background"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:396
+msgid "Logo Border"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:397
+msgid "Set border for logo image."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:411
+msgid "Outer Border"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:412
+msgid "Show/Hide logo outer border."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:420
+msgid "Border Radius"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:421
+msgid "Set logo border radius."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:439
+msgid "BoxShadow"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:440
+msgid "Set boxshadow for the logo."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:443
+msgid "Inset (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:444
+msgid "Outset (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:456
+msgid "Logo Image Settings"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:462 class/logo.php:99
+#: includes/functions.php:56
+msgid "Logo Image"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:463
+msgid "Show/Hide logo image."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:473
+msgid "Logo Image Size"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:475
+msgid "Set a size for logo image."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:481
+msgid "Custom Logo Size"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:482
+msgid "Set width and height of the logo image."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:516
+msgid "Zoom"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:517
+msgid "Select a zoom effect for the logo image."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:521
+msgid "Zoom In (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:522
+msgid "Zoom Out (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:531
+msgid "Blur"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:532
+msgid "Enable/Disable loge image blur effect."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:544
+msgid "Opacity"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:545
+msgid "Set opacity for the logo images."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:557
+msgid "Image Mode"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:558
+msgid "Set a mode for logo images."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:560
+#: admin/views/sp-framework/fields/background/background.php:348
+#: admin/views/sp-framework/fields/link_color/link_color.php:67
+#: admin/views/sp-framework/fields/typography/typography.php:239
+msgid "Normal"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:561
+msgid "Grayscale and normal on hover (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:562
+msgid "Grayscale on hover (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:563
+msgid "Always grayscale (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:572
+msgid "Vertical Alignment"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:573
+msgid "Select vertical alignment type."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:575
+msgid "Middle"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:576
+msgid "Bottom (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:577
+msgid "Top (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:585
+msgid "Logo Title Attribute"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:586
+msgid "Check to add logo title attribute."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:600
+msgid "Carousel Controls"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:607
+msgid "Carousel Orientation"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:608
+msgid "Choose a carousel orientation."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:610
+msgid "Horizontal"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:611
+msgid "Vertical"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:619
+msgid "AutoPlay"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:620
+msgid "Enable/Disable autoplay for the carousel."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:629
+msgid "AutoPlay Speed"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:630
+msgid "Set auto play speed in millisecond."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:631
+#: admin/views/sp-framework/config/metabox.config.php:649
+msgid "ms"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:647
+msgid "Pagination Speed"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:648
+msgid "Set pagination/slide scroll speed in millisecond."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:658
+msgid "Pause on Hover"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:659
+msgid "Enable/Disable pause on hover carousel."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:675
+msgid "Slide To Scroll"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:676
+msgid "Set number of slide to scroll on devices."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:690
+msgid "Infinite Loop"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:691
+msgid "Enable/Disable infinite looping for the carousel."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:700
+msgid "Carousel Direction"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:701
+msgid "Set carousel direction as you need."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:703
+msgid "Right to Left"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:704
+msgid "Left to Right"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:711
+msgid "Row"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:712
+msgid "Set number of row on devices."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:726
+msgid ""
+"To unlock vertical carousel, slide to scroll, multiple rows carousel, and "
+"many more amazing settings, <a href=\"https://shapedplugin.com/plugin/logo-"
+"carousel-pro/?ref=1\" target=\"_blank\"><b>Upgrade To Pro!</b></a>"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:730
+#: admin/views/sp-framework/config/metabox.config.php:735
+msgid "Navigation"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:736
+msgid "Show/hide navigation."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:740
+#: admin/views/sp-framework/config/metabox.config.php:829
+msgid "Hide on Mobile"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:756
+msgid "Select a position of the navigation arrows."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:758
+msgid "Top right"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:759
+msgid "Top center (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:760
+msgid "Top left (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:761
+msgid "Bottom left (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:762
+msgid "Bottom center (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:763
+msgid "Bottom right (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:764
+msgid "Vertically center (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:765
+msgid "Vertically center inner (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:766
+msgid "Vertically center inner on hover (Pro)"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:779
+msgid "Set navigation color."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:782
+msgid "Hover Color"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:801
+msgid "Border"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:802
+msgid "Set border for navigation."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:819
+#: admin/views/sp-framework/config/metabox.config.php:824
+msgid "Pagination"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:825
+msgid "Show/hide pagination dots."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:844
+msgid "Set pagination dots color."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:847
+msgid "Active Color"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:861
+msgid "Miscellaneous"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:866
+msgid "Touch Swipe"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:867
+msgid "Enable/Disable touch swipe mode."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:876
+msgid "Mouse Draggable"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:877
+msgid "Enable/Disable mouse draggable mode."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:891
+msgid "Typography"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:897
+msgid ""
+"To unlock the following Typography (950+ Google Fonts) options, <b><a href="
+"\"https://logocarousel.com/?ref=1\" target=\"_blank"
+"\">Upgrade To Pro</a></b>!"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:902
+msgid "Section Title Font"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:903
+msgid "Set section title font properties."
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:922
+msgid "Logo Title Font"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:923
+msgid "Set logo title font properties"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:942
+msgid "Logo Body/Description Font"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:943
+msgid "Set logo description font properties"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:963
+msgid "Read More Font"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:964
+msgid "Set description read more font properties"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:981
+msgid "Popup Title Font"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:982
+msgid "Set logo popup title font properties"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:1001
+msgid "Popup Description Font"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:1002
+msgid "Set logo popup description font properties"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:1032
+msgid "Logo Link URL"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:1048
+msgid "Custom URL"
+msgstr ""
+
+#: admin/views/sp-framework/config/metabox.config.php:1049
+msgid ""
+" To add a custom link URL for the logo, <a href=\"https://shapedplugin.com/"
+"plugin/logo-carousel-pro/?ref=1\" target=\"_blank\">Upgrade To Pro!</a>"
+msgstr ""
+
+#: admin/views/sp-framework/config/settings.config.php:20
+#: admin/views/sp-framework/config/settings.config.php:30
+msgid "Settings"
+msgstr ""
+
+#: admin/views/sp-framework/config/settings.config.php:40
+msgid "Advanced Settings"
+msgstr ""
+
+#: admin/views/sp-framework/config/settings.config.php:47
+msgid "Clean-up Data on Deletion"
+msgstr ""
+
+#: admin/views/sp-framework/config/settings.config.php:48
+msgid ""
+"Check this box if you would like Logo Carousel to completely remove all of "
+"its data when the plugin is deleted."
+msgstr ""
+
+#: admin/views/sp-framework/config/settings.config.php:54
+msgid "CSS Enqueue or Dequeue"
+msgstr ""
+
+#: admin/views/sp-framework/config/settings.config.php:59
+msgid "FontAwesome CSS"
+msgstr ""
+
+#: admin/views/sp-framework/config/settings.config.php:61
+#: admin/views/sp-framework/config/settings.config.php:70
+#: admin/views/sp-framework/config/settings.config.php:84
+msgid "Enqueue"
+msgstr ""
+
+#: admin/views/sp-framework/config/settings.config.php:62
+#: admin/views/sp-framework/config/settings.config.php:71
+#: admin/views/sp-framework/config/settings.config.php:85
+msgid "Dequeue"
+msgstr ""
+
+#: admin/views/sp-framework/config/settings.config.php:68
+msgid "Swiper CSS"
+msgstr ""
+
+#: admin/views/sp-framework/config/settings.config.php:77
+msgid "JS Enqueue or Dequeue"
+msgstr ""
+
+#: admin/views/sp-framework/config/settings.config.php:82
+msgid "Swiper JS"
+msgstr ""
+
+#: admin/views/sp-framework/config/settings.config.php:97
+#: admin/views/sp-framework/config/settings.config.php:109
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/views/sp-framework/config/tools.config.php:23
+#: admin/views/sp-framework/config/tools.config.php:35
+msgid "Tools"
+msgstr ""
+
+#: admin/views/sp-framework/config/tools.config.php:42
+msgid "Export"
+msgstr ""
+
+#: admin/views/sp-framework/config/tools.config.php:48
+msgid "Choose What To Export"
+msgstr ""
+
+#: admin/views/sp-framework/config/tools.config.php:51 class/logo.php:84
+#: class/logo.php:94
+msgid "All Logos"
+msgstr ""
+
+#: admin/views/sp-framework/config/tools.config.php:52
+msgid "All Logo Carousels (Shortcodes)"
+msgstr ""
+
+#: admin/views/sp-framework/config/tools.config.php:53
+msgid "Selected Logo Carousels (Shortcodes)"
+msgstr ""
+
+#: admin/views/sp-framework/config/tools.config.php:66
+msgid "Choose shortcode(s)"
+msgstr ""
+
+#: admin/views/sp-framework/config/tools.config.php:88
+msgid "Import"
+msgstr ""
+
+#: admin/views/sp-framework/config/tools.config.php:93
+msgid "Import JSON File To Upload"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:62
+#: admin/views/sp-framework/fields/media/media.php:87
+msgid "Not selected"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:99
+msgid "From"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:122
+msgid "To"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:145
+msgid "Direction"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:152
+msgid "Gradient Direction"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:153
+msgid "&#8659; top to bottom"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:154
+msgid "&#8658; left to right"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:155
+msgid "&#8664; corner top to right"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:156
+msgid "&#8665; corner top to left"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:209
+msgid "Background Position"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:210
+msgid "Left Top"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:211
+msgid "Left Center"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:212
+msgid "Left Bottom"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:213
+msgid "Center Top"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:214
+msgid "Center Center"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:215
+msgid "Center Bottom"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:216
+msgid "Right Top"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:217
+msgid "Right Center"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:218
+msgid "Right Bottom"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:237
+msgid "Background Repeat"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:238
+msgid "Repeat"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:239
+msgid "No Repeat"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:240
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:241
+msgid "Repeat Vertically"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:260
+msgid "Background Attachment"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:261
+msgid "Scroll"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:262
+msgid "Fixed"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:281
+msgid "Background Size"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:282
+msgid "Cover"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:283
+msgid "Contain"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:284
+msgid "Auto"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:303
+msgid "Background Origin"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:304
+#: admin/views/sp-framework/fields/background/background.php:327
+msgid "Padding Box"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:305
+#: admin/views/sp-framework/fields/background/background.php:326
+msgid "Border Box"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:306
+#: admin/views/sp-framework/fields/background/background.php:328
+msgid "Content Box"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:325
+msgid "Background Clip"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:347
+msgid "Background Blend Mode"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:349
+msgid "Multiply"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:350
+msgid "Screen"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:352
+msgid "Darken"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:353
+msgid "Lighten"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:354
+msgid "Color Dodge"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:355
+msgid "Saturation"
+msgstr ""
+
+#: admin/views/sp-framework/fields/background/background.php:357
+msgid "Luminosity"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:53
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:60
+#: admin/views/sp-framework/fields/spacing/spacing.php:53
+msgid "top"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:54
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:61
+#: admin/views/sp-framework/fields/spacing/spacing.php:54
+msgid "right"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:55
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:62
+#: admin/views/sp-framework/fields/spacing/spacing.php:55
+msgid "bottom"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:56
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:63
+#: admin/views/sp-framework/fields/spacing/spacing.php:56
+msgid "left"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:57
+#: admin/views/sp-framework/fields/column/column.php:61
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:64
+#: admin/views/sp-framework/fields/spacing/spacing.php:57
+msgid "all"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:82
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:90
+#: admin/views/sp-framework/fields/typography/typography.php:277
+msgid "Solid"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:83
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:91
+#: admin/views/sp-framework/fields/typography/typography.php:280
+msgid "Dashed"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:84
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:92
+#: admin/views/sp-framework/fields/typography/typography.php:279
+msgid "Dotted"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:85
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:93
+#: admin/views/sp-framework/fields/typography/typography.php:278
+msgid "Double"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:86
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:94
+msgid "Inset"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:87
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:95
+msgid "Outset"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:88
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:96
+msgid "Groove"
+msgstr ""
+
+#: admin/views/sp-framework/fields/border/border.php:89
+#: admin/views/sp-framework/fields/dimensions_advanced/dimensions_advanced.php:97
+msgid "ridge"
+msgstr ""
+
+#: admin/views/sp-framework/fields/column/column.php:56
+msgid "Large Desktop"
+msgstr ""
+
+#: admin/views/sp-framework/fields/column/column.php:57
+msgid "Desktop"
+msgstr ""
+
+#: admin/views/sp-framework/fields/column/column.php:58
+msgid "Tablet"
+msgstr ""
+
+#: admin/views/sp-framework/fields/column/column.php:59
+msgid "Mobile Landscape"
+msgstr ""
+
+#: admin/views/sp-framework/fields/column/column.php:60
+msgid "Mobile"
+msgstr ""
+
+#: admin/views/sp-framework/fields/dimensions/dimensions.php:51
+msgid "width"
+msgstr ""
+
+#: admin/views/sp-framework/fields/dimensions/dimensions.php:52
+msgid "height"
+msgstr ""
+
+#: admin/views/sp-framework/fields/gallery/gallery.php:49
+msgid "Add Gallery"
+msgstr ""
+
+#: admin/views/sp-framework/fields/gallery/gallery.php:50
+msgid "Edit Gallery"
+msgstr ""
+
+#: admin/views/sp-framework/fields/gallery/gallery.php:51
+msgid "Clear"
+msgstr ""
+
+#: admin/views/sp-framework/fields/group/group.php:51 class/logo.php:87
+#: class/logo.php:88 class/shortcode.php:63
+msgid "Add New"
+msgstr ""
+
+#: admin/views/sp-framework/fields/group/group.php:63
+#: admin/views/sp-framework/fields/repeater/repeater.php:56
+msgid "Error: Field ID conflict."
+msgstr ""
+
+#: admin/views/sp-framework/fields/group/group.php:73
+#: admin/views/sp-framework/fields/group/group.php:114
+#: admin/views/sp-framework/fields/repeater/repeater.php:77
+#: admin/views/sp-framework/fields/repeater/repeater.php:105
+msgid "Are you sure to delete this item?"
+msgstr ""
+
+#: admin/views/sp-framework/fields/group/group.php:147
+#: admin/views/sp-framework/fields/repeater/repeater.php:117
+msgid "You cannot add more."
+msgstr ""
+
+#: admin/views/sp-framework/fields/group/group.php:148
+#: admin/views/sp-framework/fields/repeater/repeater.php:118
+msgid "You cannot remove more."
+msgstr ""
+
+#: admin/views/sp-framework/fields/icon/icon.php:48
+#: admin/views/sp-framework/fields/icon/icon.php:91
+msgid "Add Icon"
+msgstr ""
+
+#: admin/views/sp-framework/fields/icon/icon.php:49
+msgid "Remove Icon"
+msgstr ""
+
+#: admin/views/sp-framework/fields/image_sizes/image_sizes.php:84
+msgid "Original uploaded image"
+msgstr ""
+
+#: admin/views/sp-framework/fields/image_sizes/image_sizes.php:85
+msgid "Set custom size"
+msgstr ""
+
+#: admin/views/sp-framework/fields/image_sizes/image_sizes.php:131
+msgid "No image sizes found."
+msgstr ""
+
+#: admin/views/sp-framework/fields/link/link.php:48
+msgid "Add Link"
+msgstr ""
+
+#: admin/views/sp-framework/fields/link/link.php:49
+msgid "Edit Link"
+msgstr ""
+
+#: admin/views/sp-framework/fields/link/link.php:50
+msgid "Remove Link"
+msgstr ""
+
+#: admin/views/sp-framework/fields/link_color/link_color.php:68
+msgid "Hover"
+msgstr ""
+
+#: admin/views/sp-framework/fields/link_color/link_color.php:69
+msgid "Active"
+msgstr ""
+
+#: admin/views/sp-framework/fields/link_color/link_color.php:70
+msgid "Visited"
+msgstr ""
+
+#: admin/views/sp-framework/fields/link_color/link_color.php:71
+msgid "Focus"
+msgstr ""
+
+#: admin/views/sp-framework/fields/map/map.php:64
+msgid "Latitude"
+msgstr ""
+
+#: admin/views/sp-framework/fields/map/map.php:65
+msgid "Longitude"
+msgstr ""
+
+#: admin/views/sp-framework/fields/media/media.php:52
+#: admin/views/sp-framework/fields/upload/upload.php:49
+msgid "Upload"
+msgstr ""
+
+#: admin/views/sp-framework/fields/media/media.php:53
+#: admin/views/sp-framework/fields/upload/upload.php:50
+msgid "Remove"
+msgstr ""
+
+#: admin/views/sp-framework/fields/switcher/switcher.php:45
+msgid "On"
+msgstr ""
+
+#: admin/views/sp-framework/fields/switcher/switcher.php:46
+msgid "Off"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:134
+msgid "Font Family"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:135
+msgid "Select a font"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:143
+msgid "Backup Font Family"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:176
+msgid "Font Style"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:189
+#: admin/views/sp-framework/fields/typography/typography.php:190
+msgid "Load Extra Styles"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:204
+msgid "Subset"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:214
+msgid "Text Align"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:218
+msgid "Inherit"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:222
+msgid "Justify"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:223
+msgid "Initial"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:235
+msgid "Font Variant"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:240
+msgid "Small Caps"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:241
+msgid "All Small Caps"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:253
+msgid "Text Transform"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:258
+msgid "Capitalize"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:259
+msgid "Uppercase"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:260
+msgid "Lowercase"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:272
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:281
+msgid "Wavy"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:282
+msgid "Overline"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:283
+msgid "Line-through"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:299
+msgid "Font Size"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:311
+msgid "Line Height"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:323
+msgid "Letter Spacing"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:335
+msgid "Word Spacing"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:350
+msgid "Font Color"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:361
+msgid "Custom Style"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:442
+msgid "Custom Web Fonts"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:448
+msgid "Safe Web Fonts"
+msgstr ""
+
+#: admin/views/sp-framework/fields/typography/typography.php:471
+msgid "Google Web Fonts"
+msgstr ""
+
+#: admin/views/sp-framework/functions/actions.php:25
+#: admin/views/sp-framework/functions/actions.php:74
+#: admin/views/sp-framework/functions/actions.php:98
+msgid "Error: Invalid nonce verification."
+msgstr ""
+
+#: admin/views/sp-framework/functions/actions.php:105
+msgid "Error: Invalid term ID."
+msgstr ""
+
+#: admin/views/sp-framework/functions/actions.php:111
+msgid "Error: You do not have permission to do that."
+msgstr ""
+
+#: admin/views/sp-framework/functions/validate.php:24
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: admin/views/sp-framework/functions/validate.php:41
+msgid "Please enter a valid number."
+msgstr ""
+
+#: admin/views/sp-framework/functions/validate.php:58
+msgid "This field is required."
+msgstr ""
+
+#: admin/views/sp-framework/functions/validate.php:75
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: class/logo.php:64 class/logo.php:85 includes/functions.php:21
+msgid "Logo"
+msgstr ""
+
+#: class/logo.php:65
+msgid "Logo carousel post type"
+msgstr ""
+
+#: class/logo.php:89 class/logo.php:90 class/shortcode.php:65
+msgid "Edit"
+msgstr ""
+
+#: class/logo.php:91
+msgid "New Logo"
+msgstr ""
+
+#: class/logo.php:92 class/logo.php:93
+msgid "View Logo"
+msgstr ""
+
+#: class/logo.php:95
+msgid "Search Logo"
+msgstr ""
+
+#: class/logo.php:96
+msgid "No Logo Found"
+msgstr ""
+
+#: class/logo.php:97
+msgid "No Logo Found in Trash"
+msgstr ""
+
+#: class/logo.php:98
+msgid "Parent Logos"
+msgstr ""
+
+#: class/logo.php:100
+msgid "Set Logo"
+msgstr ""
+
+#: class/logo.php:101
+msgid "Remove logo image"
+msgstr ""
+
+#: class/logo.php:102
+msgid "Use as logo image"
+msgstr ""
+
+#: class/shortcode.php:50
+msgid "Logo Carousel Shortcode"
+msgstr ""
+
+#: class/shortcode.php:51
+msgid "Generate Shortcode for Logo Carousel"
+msgstr ""
+
+#: class/shortcode.php:60
+msgid "All Logo Carousels"
+msgstr ""
+
+#: class/shortcode.php:62
+msgid "Shortcode Generator"
+msgstr ""
+
+#: class/shortcode.php:64
+msgid "Add New Carousel"
+msgstr ""
+
+#: class/shortcode.php:66
+msgid "Edit Carousel"
+msgstr ""
+
+#: class/shortcode.php:67
+msgid "New Carousel"
+msgstr ""
+
+#: class/shortcode.php:68 class/shortcode.php:69
+msgid "View Shortcode"
+msgstr ""
+
+#: class/shortcode.php:70
+msgid "Search Carousel"
+msgstr ""
+
+#: class/shortcode.php:71
+msgid "No Logo Carousel Found"
+msgstr ""
+
+#: class/shortcode.php:72
+msgid "No Logo Carousel Found in Trash"
+msgstr ""
+
+#: class/shortcode.php:73
+msgid "Parent Logo Carousel"
+msgstr ""
+
+#: includes/class-logo-carousel-import-export.php:241
+msgid "Nothing to import."
+msgstr ""
+
+#: includes/free/loader.php:28
+msgid "Logo Carousel Pro"
+msgstr ""
+
+#: includes/free/loader.php:28
+msgid "Premium"
+msgstr ""
+
+#: includes/free/loader.php:29
+msgid "Logo Carousel Help"
+msgstr ""
+
+#: includes/free/loader.php:29
+msgid "Help"
+msgstr ""
+
+#: includes/free/loader.php:58
+msgid "No data found!"
+msgstr ""
+
+#: includes/free/loader.php:82
+msgid "Upgrade To Logo Carousel Pro"
+msgstr ""
+
+#: includes/free/loader.php:83
+msgid "Multi-Use Responsive Logo Showcase Plugin for WordPress"
+msgstr ""
+
+#: includes/free/loader.php:84
+msgid ""
+"Display a list of clients, sponsors, partners, affiliates, supporters, "
+"suppliers, brands logos on your WordPress website."
+msgstr ""
+
+#: includes/free/loader.php:85
+msgid ""
+"Create a Carousel, Grid, Isotope Filter, List, and Inline view of logo "
+"images with Title, Description, Read more, Tooltips, Links (Internal or "
+"External) and Popup, etc."
+msgstr ""
+
+#: includes/functions.php:72
+#, php-format
+msgid ""
+"If you like <strong>Logo Carousel</strong> please leave us a <a href=\"%s\" "
+"target=\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Your "
+"Review is very important to us as it helps us to grow more. "
+msgstr ""
+
+#: includes/functions.php:85 includes/functions.php:102
+msgid "No shortcode to duplicate has been supplied!"
+msgstr ""
+
+#: includes/functions.php:152
+msgid "Shortcode creation failed, could not find original post: "
+msgstr ""
+
+#: includes/functions.php:168
+msgid "Duplicate"
+msgstr ""
+
+#: main.php:261
+msgid "Create Carousel"
+msgstr ""
+
+#: main.php:265
+msgid "Go Premium!"
+msgstr ""
+
+#: main.php:283
+msgid "Live Demo"
+msgstr ""
+
+#: main.php:350
+msgid "Carousel Title"
+msgstr ""
+
+#: main.php:371
+msgid "Shortcode Copied to Clipboard! "
+msgstr ""

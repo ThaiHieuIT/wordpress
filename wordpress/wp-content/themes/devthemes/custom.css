@@ -1,0 +1,337 @@
+/* Header */
+#top-header{
+    background-color: #0170b9;
+    color: white;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.fa-brands , .fa-solid{
+    color: white;
+    font-size: 25px;
+}
+.fa-brands:hover{
+    color: rgb(255, 94, 94);
+}
+.site-branding img.custom-logo{
+    max-width: 200px;
+}
+.menu.nav-menu li {
+    padding: 10px;
+}
+ul.sub-menu {
+    display: flex;
+    flex-direction: column;
+}
+.menu-trai-container {
+    color: blue;
+    font-weight: 700;
+   
+}
+.social {
+    float: right;
+}
+
+.nav-menu > li > .sub-menu {
+    background-color: #fff;
+}
+
+/* End Header */
+
+/* Chuong Trinh Dao Tao */
+.chuongtrinhdaotao > h2{
+    border-left: 2px solid #0170B9;
+    color:#0170B9 ;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 50px 0;
+    padding:0 30px;
+
+}
+.box-content{
+    background-color: #3dc3c3;
+    height: 300px;
+    margin-top: 20px;
+
+}
+.title-content{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.nd-content,.nd-sub-content{
+    padding: 30px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+.nd-sub-content,.submit-button{
+    display: none;
+}
+.submit-button{
+    margin-left: 120px;
+    margin-top: 20px;
+    
+}
+.submit-button a{
+    text-decoration: none;
+    color: black;
+    
+}
+.box-ctdaotao:hover .box-content{
+    background-color: #0170b9;
+}
+.box-ctdaotao:hover .title-content, .box-ctdaotao:hover .nd-content{
+    display: none;
+}
+.box-ctdaotao:hover .submit-button, .box-ctdaotao:hover .nd-sub-content{
+    display: block;
+}
+
+/* End Chuong Trinh Dao Tao */
+
+/* Dao Tao Ky Nang */
+.content{
+    margin-top: 50px;
+    background-color: #f2e9e985;
+}
+
+.title{
+    text-align: center;
+    margin: 25px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #64e9e9;
+}
+
+.sub-title{
+    margin: 0 auto;
+    text-align: center;
+    color: #808080;
+    margin-bottom: 50px;
+}
+
+.box-daotao{
+    background-color: #fff;
+    border-radius:90%;
+    height: 265px;
+    width: 265px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-daotao > img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.box-daotao:hover {
+    background-color: #3dc3c3;
+    cursor: pointer;
+    color: #fff;
+}
+
+.box-daotao:hover h3{
+    color: #fff;
+}
+
+.box-daotao-content{
+    font-size: 15px;
+    position: relative;
+    text-align: -webkit-center;
+}
+
+.box-daotao-content > h3 {
+    font-size: 21px;
+    color: #64e9e9;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+/* End Dao Tao Ky Nang */
+.entry-title a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.entry-meta a {
+    text-decoration: none;
+    color: black;
+}
+.entry-footer a {
+    text-decoration: none;
+    color: black;
+}
+.wp-block-latest-posts__post-title{
+    text-decoration: none;
+    color: black;
+}
+.wp-block-group__inner-container li  a {
+    text-decoration: none;
+    color: black;
+    
+}
+.page-header{
+    margin: 20px;
+}
+.entry-content a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+/* Taxonomy danh muc */
+.row {
+    margin: 12px;
+}
+.site-info a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.nav-next a {
+    text-decoration: none;
+    color: #3dc3c3;
+    font-weight: 500;
+}
+.nav-previous a {
+    text-decoration: none;
+    color: #3dc3c3;
+    font-weight: 500;
+}
+.col-md-3 a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.col-md-3 a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.Normal a {
+    text-decoration: none;
+    color: midnightblue;
+    font-weight: 500;
+}
+/* Card Lat */
+.tpk_card
+{
+  margin-top: 20px;
+  width: 350px;
+  height: 300px;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transition: 1s;
+
+}
+
+.tpk_card .front
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 1s;
+}
+
+.tpk_card:hover .front
+{
+  transform: rotateX(-180deg);
+}
+
+.tpk_card .back
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0170B9;
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 1s;
+}
+
+.tpk_card .back:before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tpk_card:hover .back
+{
+  transform: rotateX(0deg);
+}
+
+.tpk_card .back .details
+{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0,-50%);
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.tpk_card .back .details h2
+{
+  margin: 0px;
+  padding: 0px;
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.tpk_card .back .details h2 span
+{
+  color: #a7a7a7;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.tpk_card .social-icons
+{
+  padding: 10px 0;
+}
+
+.tpk_card .social-icons a
+{
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  background: #262626;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.tpk_card .social-icons a .fab
+{
+  line-height: 36px;
+}
+
+.tpk_card .social-icons a:hover
+{
+  background: #e91e63;
+}
+.front img {
+  width: 300px;
+  height: 300px;
+}
+
+/* End lat */

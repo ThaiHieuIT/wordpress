@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&display=swap');
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+    margin: 0 !important;
+}
+
+html,body,site{
+    height: 100%;
+}
+
+
+
+#branding {
+    background-color: #fff;
+    box-shadow: 0 0 10px 0.5px;
+}
+
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-menu>li {
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+
+.nav-menu>li>a {
+    color: #3e449c;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.sub-menu>li,
+.sub-menu>li>a {
+    padding: 10px;
+}
+
+
+.nav-menu>li>.sub-menu {
+    width: 300px;
+    background-color: #fff;
+    border-top: 2px solid #0170b9;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-navigation ul ul a {
+    width: 100%;
+}
+
+
+/* serach */
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    width: 90px;
+}
+
+.input {
+    padding: 10px !important;
+    height: 50px;
+    width: 254px;
+    background: none;
+    border: none !important;
+    border-radius: 50px !important;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: #ffd52d !important;
+    outline: none;
+    transition: .5s;
+}
+
+.box:hover input {
+    width: 350px;
+    background: #3b3640;
+    border-radius: 10px;
+
+}
+
+.box i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: #ffd52d;
+    transition: .2s;
+}
+
+.box:hover i {
+    opacity: 0;
+    z-index: -1;
+}
+
+
+/* Content Giới Thiệu */
+#gioithieu>.container {
+    margin-top: 100px;
+    max-width: 1200px !important;
+}
+
+#gioithieu .tieude {
+    color: #3E449C;
+}
+
+#gioithieu .tieude h3 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+#gioithieu .tieude h1 {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+#gioithieu .box-gioithieu {
+    width: 100%;
+}
+
+#gioithieu .title-content {
+    padding-left: 10px;
+    border-left: 3px solid #3E449C;
+    margin: 30px 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#gioithieu .nd-content {
+    font-weight: 400;
+    font-size: 14px;
+    color: #7a7a7a;
+    line-height: 2;
+    text-align: justify;
+}
+
+#gioithieu .nd-content .submit-button {
+    margin-top: 50px;
+}
+
+#gioithieu .submit-button button {
+    width: 208px;
+    height: 47px;
+    border-radius: 5px;
+    background-color: #3E449C;
+}
+
+#gioithieu .submit-button a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#gioithieu .submit-button .fa-arrow-right {
+    margin-left: 10px;
+}
+
+.box-item,
+.box-item-row {
+    height: 100%;
+}
+
+.box-item-row .col-4 {
+    padding: 0;
+    margin: 0;
+}
+
+.box-item-row img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    transition: margin-top 0.4s;
+}
+
+.box-item-row img:hover {
+    filter: grayscale(0%);
+    margin-top: -10px;
+}
+
+
+/* Dự Án Nổi Bật */
+.title-duan{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #282a56;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.logo-carousel-free .sp-lc-logo img {
+    height: 400px;
+    width: 670px !important;
+    position: relative;
+}
+
+#logo-carousel-free-150{
+    z-index: -1;
+}
+
+
+/* Tin Tức */
+
+#tintuc{
+    margin-top: 100px;
+}
+
+.titleTintuc{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #282a56;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.box-tintuc{
+    box-shadow: 0 0 10px 2px #ccc;
+    margin: 10px;
+    width: 353px;
+    height: 583px;
+    padding: 0;
+}
+
+.box-img img {
+    height: 200px !important;
+}
+
+.box-content{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box-title{
+    padding: 20px 0;
+}
+.box-title a{
+    text-decoration: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #282a56;
+}
+
+.button-tintuc{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.button-tintuc button{
+    background-color: #3E449C;
+    border-radius: 10px;
+    
+}
+
+.box-tintuc:hover .button-tintuc{
+    opacity: 1;
+}
+
+.button-tintuc button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nd-sub-content{
+    font-size: 14px;
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* footer top */
+.footer-top{
+    height: 317px;
+    background-color: #3E449C;
+    display: flex;
+    align-items: center;
+}
+
+.footer-top h2, .footer-top h6{
+    padding: 5px 0;
+}
+
+.footer-left .fa-sharp{
+    margin-right: 10px;
+}
+
+.footer-top h6, .footer-top a{
+    font-size: 19px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+
+.title-footer{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-top .footer-left{
+    color: #fff;
+}
+
+.fb_iframe_widget{
+    margin: 0 200px;
+}
+
+
+/* footer bottom */
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    background-color: #2A2B5B;
+    height: 80px;
+}
+
+.footer-bottom p {
+    line-height: 80px;
+    color: #fff;
+}
+

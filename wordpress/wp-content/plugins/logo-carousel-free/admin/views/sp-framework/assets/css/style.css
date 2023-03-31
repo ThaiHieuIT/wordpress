@@ -1,0 +1,4112 @@
+/**
+ *
+ * 01. Base
+ *     01. 01. Header
+ *     01. 02. Sticky
+ *     01. 03. Header Buttons
+ *     01. 04. Navigation
+ *     01. 05. Wrapper
+ *     01. 06. Content
+ *     01. 07. Section
+ *     01. 08. Footer
+ *     01. 09. Copyright
+ *     01. 10. Show All Settings
+ *     01. 11. Search Input
+ *     01. 12. Metabox
+ *     01. 13. Comment Metabox
+ *     01. 14. Help Tooltip
+ * 02. Themes
+ *     02. 01. Theme Dark
+ *     02. 02. Theme Light
+ * 03. Fields
+ *     03. 01. Field
+ *     03. 03. Field: background
+ *     03. 04. Field: backup
+ *     03. 05. Field: border, spacing, dimensions
+ *     03. 06. Field: button_set
+ *     03. 07. Field: checkbox, radio
+ *     03. 08. Field: code_editor
+ *     03. 09. Field: color
+ *     03. 10. Field: color_group
+ *     03. 12. Field: date
+ *     03. 14. Field: group
+ *     03. 15. Field: icon
+ *     03. 19. Field: media
+ *     03. 22. Field: select
+ *     03. 23. Field: slider
+ *     03. 26. Field: spinner
+ *     03. 27. Field: switcher
+ *     03. 29. Field: text
+ *     03. 30. Field: textarea
+ *     03. 31. Field: typography
+ *     03. 33. Field: wp_editor
+ *     03. 35. Field: subheading
+ *     03. 37. Field: notice
+ *     03. 39. Field: link
+ *     03. 40. Field: others
+ * 04. Widget
+ * 05. Customizer
+ * 06. Taxonomy
+ * 07. Profile
+ * 08. Nav Menu
+ * 09. Modal
+ *     09. 01. Shortcode Modal
+ *     09. 02. Gutenberg Modal
+ *     09. 03. Icon Modal
+ * 10. Helper
+ * 11. Welcome Page
+ * 12. Responsive
+ * 13. Others
+ *
+ * ---------------------------------------------------------
+ *
+ */
+/**
+ * 01. Base
+ */
+.splogocarousel {
+  position: relative;
+}
+.splogocarousel label {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.splogocarousel-ab-icon {
+  top: 2px;
+}
+
+#screen-meta-links + .splogocarousel-options {
+  margin-top: 40px;
+}
+
+.splogocarousel-options {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/**
+ * 01. 01. Header
+ */
+.splogocarousel-header {
+  position: relative;
+}
+
+.splogocarousel-header-inner {
+  padding: 25px;
+  transition: box-shadow 0.3s ease;
+}
+.splogocarousel-header-inner h1 {
+  float: left;
+  font-size: 1.5em;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0;
+}
+.splogocarousel-header-inner h1 small {
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/**
+ * 01. 02. Sticky
+ */
+.splogocarousel-sticky .splogocarousel-header-inner {
+  position: fixed;
+  z-index: 99;
+  top: 32px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/**
+ * 01. 03. Header Buttons
+ */
+.splogocarousel-buttons {
+  float: right;
+}
+.splogocarousel-buttons .button {
+  margin: 0 2px;
+  line-height: 26px;
+}
+.splogocarousel-buttons .button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.splogocarousel-buttons .splogocarousel-save {
+  min-width: 72px;
+}
+
+.splogocarousel-header-left {
+  float: left;
+}
+
+.splogocarousel-header-right {
+  float: right;
+}
+
+/**
+ * 01. 04. Navigation
+ */
+.splogocarousel-nav {
+  display: block;
+  position: relative;
+  z-index: 10;
+  float: left;
+}
+.splogocarousel-nav ul {
+  clear: left;
+  margin: 0;
+  list-style-type: none;
+}
+.splogocarousel-nav ul li {
+  margin-bottom: 0;
+}
+.splogocarousel-nav ul li a {
+  font-size: 13px;
+  position: relative;
+  display: block;
+  padding: 14px 12px;
+  text-decoration: none;
+  transition-property: color, background;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.splogocarousel-nav ul li a:focus {
+  outline: none;
+  box-shadow: none;
+}
+.splogocarousel-nav ul li .splogocarousel-arrow:after {
+  content: "\f054";
+  display: inline-block;
+  font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+  font-weight: 900;
+  font-size: 9px;
+  line-height: 1;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -4px;
+}
+.splogocarousel-nav ul li.splogocarousel-tab-expanded .splogocarousel-arrow:after {
+  transform: rotate(90deg);
+}
+.splogocarousel-nav ul li.splogocarousel-tab-expanded ul {
+  display: block;
+}
+.splogocarousel-nav ul ul {
+  display: none;
+  position: relative;
+}
+.splogocarousel-nav ul ul li a {
+  font-size: 12px;
+  padding: 12px 14px 12px 24px;
+}
+.splogocarousel-nav .splogocarousel-tab-icon {
+  width: 20px;
+  margin-right: 5px;
+  font-size: 13px;
+  text-align: center;
+}
+.splogocarousel-nav .splogocarousel-label-error {
+  margin-left: 4px;
+  vertical-align: top;
+}
+
+.splogocarousel-nav-normal {
+  width: 225px;
+}
+.splogocarousel-nav-normal + .splogocarousel-content {
+  margin-left: 225px;
+}
+
+.splogocarousel-nav-inline {
+  width: 100%;
+}
+.splogocarousel-nav-inline ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.splogocarousel-nav-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9;
+  width: 225px;
+}
+
+/**
+ * 01. 05. Wrapper
+ */
+.splogocarousel-wrapper {
+  position: relative;
+}
+
+
+/**
+ * 01. 06. Content
+ */
+.splogocarousel-content {
+  position: relative;
+  background-color: #fff;
+}
+
+/**
+ * 01. 07. Section
+ */
+.splogocarousel-sections {
+  float: left;
+  width: 100%;
+}
+
+.splogocarousel-section-title {
+  display: none;
+  padding: 20px 30px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.splogocarousel-section-title h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.splogocarousel-section-title .splogocarousel-section-icon {
+  margin-right: 5px;
+}
+
+/**
+ * 01. 08. Footer
+ */
+.splogocarousel-footer {
+  padding: 20px;
+  font-size: 11px;
+}
+
+/**
+ * 01. 09. Copyright
+ */
+.splogocarousel-copyright {
+  float: left;
+  margin-top: 5px;
+}
+
+/**
+ * 01. 10. Show All Settings
+ */
+.splogocarousel-search-all .splogocarousel-nav-background,
+.splogocarousel-search-all .splogocarousel-nav,
+.splogocarousel-show-all .splogocarousel-nav-background,
+.splogocarousel-show-all .splogocarousel-nav {
+  display: none;
+}
+.splogocarousel-search-all .splogocarousel-content,
+.splogocarousel-show-all .splogocarousel-content {
+  margin-left: 0;
+}
+.splogocarousel-search-all .splogocarousel-section-title,
+.splogocarousel-search-all .splogocarousel-section,
+.splogocarousel-show-all .splogocarousel-section-title,
+.splogocarousel-show-all .splogocarousel-section {
+  display: block !important;
+}
+
+.splogocarousel-search-all .splogocarousel-section-title {
+  display: none !important;
+}
+
+.splogocarousel-expand-all {
+  float: left;
+  padding: 0 8px;
+  margin-right: 4px;
+  z-index: 1;
+  font-size: 13px;
+  line-height: 30px;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 2px;
+  transition: all 0.2s;
+}
+.splogocarousel-expand-all span {
+  font-size: 11px;
+  vertical-align: middle;
+}
+
+/**
+ * 01. 11. Search Input
+ */
+.splogocarousel-search {
+  float: left;
+}
+.splogocarousel-search input {
+  margin: 0 2px 0 0;
+  border: none;
+  font-size: 12px;
+  line-height: 30px;
+  min-height: 30px;
+  text-align: inherit;
+  padding: 0 10px;
+  border-radius: 2px;
+  box-shadow: none;
+}
+.splogocarousel-search input:focus {
+  box-shadow: none;
+}
+
+.splogocarousel-saving .splogocarousel-buttons,
+.splogocarousel-saving .splogocarousel-content {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/**
+ * 01. 12. Metabox
+ */
+.splogocarousel-metabox {
+  margin: -1px;
+}
+.splogocarousel-metabox .splogocarousel-field {
+  padding: 20px;
+}
+.splogocarousel-metabox .splogocarousel-section-title {
+  padding: 20px;
+}
+
+.block-editor-page .splogocarousel-metabox {
+  margin: -6px -14px -14px -14px;
+}
+
+.block-editor-editor-skeleton__content .splogocarousel-metabox {
+  border-left: 1px solid #e2e4e7;
+  border-right: 1px solid #e2e4e7;
+}
+
+.splogocarousel-sections-reset {
+  float: left;
+  width: 100%;
+  text-align: right;
+  border-top: 1px solid #eee;
+}
+.splogocarousel-sections-reset .splogocarousel-button-cancel,
+.splogocarousel-sections-reset input {
+  display: none;
+}
+.splogocarousel-sections-reset label {
+  padding: 10px;
+}
+.splogocarousel-sections-reset span {
+  -webkit-user-select: none;
+  user-select: none;
+}
+.splogocarousel-sections-reset input:checked ~ .splogocarousel-button-reset {
+  display: none;
+}
+.splogocarousel-sections-reset input:checked ~ .splogocarousel-button-cancel {
+  display: inline-block;
+}
+
+#side-sortables .splogocarousel-section-title {
+  padding: 12px;
+}
+#side-sortables .splogocarousel-field {
+  padding: 10px 15px;
+}
+#side-sortables .splogocarousel-field .splogocarousel-title {
+  float: none;
+  width: 100%;
+  margin-bottom: 6px;
+}
+#side-sortables .splogocarousel-field .splogocarousel-fieldset {
+  float: none;
+  width: 100%;
+}
+#side-sortables .splogocarousel-field-text input {
+  width: 100%;
+}
+#side-sortables .splogocarousel-notice {
+  padding: 10px 15px;
+}
+
+/**
+ * 01. 13. Comment Metabox
+ */
+.splogocarousel-comment-metabox {
+  margin: -6px -12px -12px -12px;
+}
+.splogocarousel-comment-metabox .splogocarousel-field {
+  padding: 20px;
+}
+.splogocarousel-comment-metabox .splogocarousel-section-title {
+  padding: 20px;
+}
+
+/**
+ * 01. 14. Help Tooltip
+ */
+.splogocarousel-tooltip {
+  position: absolute;
+  z-index: 5000001;
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: left;
+  text-decoration: none;
+  padding: 6px 12px;
+  max-width: 200px;
+  color: #fff;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 4px;
+}
+
+/**
+ * 02. Themes
+ */
+/**
+ * 02. 01. Theme Dark
+ */
+.splogocarousel-theme-dark .splogocarousel-header-inner {
+  background-color: #050505;
+}
+.splogocarousel-theme-dark .splogocarousel-header-inner h1 {
+  color: #fff;
+}
+.splogocarousel-theme-dark .splogocarousel-header-inner h1 small {
+  color: #555;
+}
+.splogocarousel-theme-dark .splogocarousel-expand-all {
+  color: #999;
+  background-color: #222;
+}
+.splogocarousel-theme-dark .splogocarousel-expand-all:hover {
+  color: #fff;
+  background-color: #333;
+}
+.splogocarousel-theme-dark .splogocarousel-search input {
+  color: #fff;
+  background-color: #222;
+}
+.splogocarousel-theme-dark .splogocarousel-search:focus {
+  background-color: #444;
+}
+.splogocarousel-theme-dark .splogocarousel-search::-webkit-input-placeholder {
+  color: #666;
+}
+.splogocarousel-theme-dark .splogocarousel-nav ul li a {
+  color: #999;
+  border-color: #2f2f2f;
+  background-color: #222;
+}
+/* .splogocarousel-theme-dark .splogocarousel-nav ul li a:hover {
+  color: #fff;
+} */
+.splogocarousel-theme-dark .splogocarousel-nav ul li .splogocarousel-active {
+  color: #fff;
+  background-color: #111;
+}
+.splogocarousel-nav .splogocarousel-section-active .splogocarousel-tab-icon{
+  color:  #15845A;
+}
+.splogocarousel-theme-dark .splogocarousel-nav ul ul li a {
+  border-color: #2f2f2f;
+  background-color: #191919;
+}
+.splogocarousel-theme-dark .splogocarousel-nav ul ul li .splogocarousel-active {
+  background-color: #101010;
+}
+.splogocarousel-theme-dark .splogocarousel-nav ul ul:before {
+  background-color: rgba(34, 34, 34, 0.75);
+}
+.splogocarousel-theme-dark .splogocarousel-nav > ul > li:last-child > a {
+  border: none;
+}
+.splogocarousel-theme-dark .splogocarousel-nav-normal ul li a {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.splogocarousel-theme-dark .splogocarousel-nav-normal ul li .splogocarousel-active:after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 0;
+  width: 0;
+  pointer-events: none;
+  border: solid transparent;
+  border-right-color: #fff;
+  border-width: 4px;
+  margin-top: -4px;
+}
+.splogocarousel-theme-dark .splogocarousel-nav-inline {
+  background-color: #222;
+}
+.splogocarousel-theme-dark .splogocarousel-nav-inline ul li a {
+  text-align: center;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+.splogocarousel-theme-dark .splogocarousel-nav-inline ul li .splogocarousel-active:after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  height: 0;
+  width: 0;
+  pointer-events: none;
+  border: solid transparent;
+  border-bottom-color: #fff;
+  border-width: 4px;
+  margin-left: -4px;
+}
+.splogocarousel-theme-dark .splogocarousel-nav-background {
+  background-color: #222;
+}
+.splogocarousel-theme-dark .splogocarousel-footer {
+  color: #555;
+  background-color: #050505;
+}
+.post-type-sp_logo_carousel img.list-logo {
+  width: auto;
+  height: 50px;
+}
+
+/**
+ * 02. 02. Theme Light
+ */
+.splogocarousel-theme-light .splogocarousel-container {
+  border: 1px solid #ccd0d4;
+  box-shadow: 0 0 15 rgba(0, 0, 0, 0.04);
+}
+.splogocarousel-theme-light .splogocarousel-header-inner {
+  border-bottom: 1px solid #ccd0d4;
+  background-color: #f5f5f5;
+  background: linear-gradient(#fefefe, #f5f5f5);
+}
+.splogocarousel-theme-light .splogocarousel-header-inner h1 small {
+  color: #999;
+}
+.splogocarousel-theme-light .splogocarousel-expand-all {
+  color: #999;
+  background-color: #eee;
+}
+.splogocarousel-theme-light .splogocarousel-expand-all:hover {
+  color: #555;
+}
+.splogocarousel-theme-light .splogocarousel-search input {
+  color: #555;
+  background-color: #eee;
+}
+.splogocarousel-theme-light .splogocarousel-search input::-webkit-input-placeholder {
+  color: #999;
+}
+.splogocarousel-theme-light .splogocarousel-nav ul li a {
+  font-weight: 500;
+  color: #444;
+  background-color: #f5f5f5;
+}
+.splogocarousel-theme-light .splogocarousel-nav ul li a:hover {
+  color: #111;
+  background-color: #fff;
+}
+.splogocarousel-theme-light .splogocarousel-nav ul li .splogocarousel-active {
+  color: #111;
+  background-color: #fff;
+}
+.splogocarousel-theme-light .splogocarousel-nav ul ul li a {
+  background-color: #eee;
+}
+.splogocarousel-theme-light .splogocarousel-nav-normal > ul {
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+.splogocarousel-theme-light .splogocarousel-nav-normal > ul li a {
+  border-bottom: 1px solid #ccd0d4;
+  border-right: 1px solid #ccd0d4;
+}
+.splogocarousel-theme-light .splogocarousel-nav-normal > ul li .splogocarousel-active {
+  border-right-color: #fff;
+}
+.splogocarousel-theme-light .splogocarousel-nav-inline {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccd0d4;
+}
+.splogocarousel-theme-light .splogocarousel-nav-inline > ul {
+  margin-bottom: -1px;
+}
+.splogocarousel-theme-light .splogocarousel-nav-inline > ul li a {
+  text-align: center;
+  border-right: 1px solid #ccd0d4;
+  border-bottom: 1px solid #ccd0d4;
+}
+.splogocarousel-theme-light .splogocarousel-nav-inline > ul li .splogocarousel-active {
+  border-bottom-color: #fff;
+}
+.splogocarousel-theme-light .splogocarousel-nav-inline > ul ul {
+  display: none !important;
+}
+.splogocarousel-theme-light .splogocarousel-nav-inline .splogocarousel-arrow:after {
+  display: none;
+}
+.splogocarousel-theme-light .splogocarousel-nav-background {
+  background-color: #f5f5f5;
+  border-right: 1px solid #ccd0d4;
+}
+.splogocarousel-theme-light .splogocarousel-footer {
+  color: #555;
+  border-top: 1px solid #ccd0d4;
+  background-color: #f5f5f5;
+  background: linear-gradient(#fafafa, #f5f5f5);
+}
+
+/**
+ * 03. Fields
+ */
+.splogocarousel-field {
+  position: relative;
+  padding: 30px;
+}
+.splogocarousel-field p:first-child {
+  margin-top: 0;
+}
+.splogocarousel-field p:last-child {
+  margin-bottom: 0;
+}
+.splogocarousel-field:after,
+.splogocarousel-field:before {
+  content: " ";
+  display: table;
+}
+.splogocarousel-field:after {
+  clear: both;
+}
+.splogocarousel-field h4 {
+  margin-top: 0;
+}
+.splogocarousel-field .splogocarousel-title {
+  position: relative;
+  width: 20%;
+  float: left;
+}
+.splogocarousel-field .splogocarousel-title h4 {
+  margin: 0;
+  color: #23282d;
+  display: inline-block;
+}
+.splogocarousel-field .splogocarousel-fieldset {
+  float: right;
+  width: calc(80% - 20px);
+}
+
+.splogocarousel-pseudo-field {
+  padding: 0 5px 0 0 !important;
+  display: inline-block;
+}
+.splogocarousel-pseudo-field + .splogocarousel-pseudo-field {
+  border: 0;
+}
+.splogocarousel-pseudo-field pre {
+  display: none;
+}
+
+/**
+ * 03. 03. Field: background
+ */
+.splogocarousel-field-background .splogocarousel-field {
+  border: 0 !important;
+  padding: 0;
+  margin-bottom: 6px;
+  margin-right: 6px;
+}
+.splogocarousel-field-background .splogocarousel--title {
+  color: #777;
+  font-size: 12px;
+}
+.splogocarousel-field-background .splogocarousel--background-colors {
+  display: flex;
+  flex-wrap: wrap;
+}
+.splogocarousel-field-background .splogocarousel--background-attributes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.splogocarousel-field-background .splogocarousel--background-attributes select {
+  min-width: 100%;
+  margin: 0;
+}
+.splogocarousel-field-background .splogocarousel--background-attributes .splogocarousel-field {
+  flex: 1;
+}
+.splogocarousel-field-background .splogocarousel--attributes-hidden {
+  display: none;
+}
+
+/**
+ * 03. 04. Field: backup
+ */
+.splogocarousel-field-backup textarea {
+  width: 100%;
+  min-height: 200px;
+  margin-bottom: 5px;
+}
+.splogocarousel-field-backup small {
+  display: inline-block;
+  margin: 5px;
+}
+.splogocarousel-field-backup hr {
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/**
+ * 03. 05. Field: border, spacing, dimensions
+ */
+ .splogocarousel-field.splogocarousel-field-dimensions_advanced .splogocarousel-fieldset {
+  display: flex;
+}
+.splogocarousel-field-border .splogocarousel--inputs,
+.splogocarousel-field-spacing .splogocarousel--inputs,
+.splogocarousel-field-column .splogocarousel--inputs,
+.splogocarousel-field-dimensions_advanced .splogocarousel--inputs,
+.splogocarousel-field-dimensions .splogocarousel--inputs {
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+.splogocarousel-metabox .splogocarousel-field-border .splogocarousel--title {
+  position: absolute;
+  top: 0;
+  color: #999;
+  margin-bottom: 5px;
+}
+.splogocarousel-field-border .splogocarousel--input,
+.splogocarousel-field-column .splogocarousel--input,
+.splogocarousel-field-spacing .splogocarousel--input,
+.splogocarousel-field-dimensions_advanced .splogocarousel--input,
+.splogocarousel-field-dimensions .splogocarousel--input {
+  display: flex;
+  padding-right: 6px;
+  padding-bottom: 4px;
+  box-sizing: border-box;
+}
+.splogocarousel-field-border .splogocarousel--input select,
+.splogocarousel-field-column .splogocarousel--input select,
+.splogocarousel-field-spacing .splogocarousel--input select,
+.splogocarousel-field-dimensions_advanced .splogocarousel--input select,
+.splogocarousel-field-dimensions .splogocarousel--input select {
+  margin: 0;
+}
+.splogocarousel-field-border .splogocarousel--input input,
+.splogocarousel-field-column .splogocarousel--input input,
+.splogocarousel-field-spacing .splogocarousel--input input,
+.splogocarousel-field-dimensions_advanced .splogocarousel--input input,
+.splogocarousel-field-dimensions .splogocarousel--input input {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  width: 65px;
+  max-width: 100%;
+  text-align: center;
+  padding: 0;
+}
+.splogocarousel-field-border .splogocarousel--color,
+.splogocarousel-field-spacing .splogocarousel--color,
+.splogocarousel-field-dimensions .splogocarousel--color {
+  float: left;
+}
+.splogocarousel-field-border .splogocarousel--label,
+.splogocarousel-field-column .splogocarousel--label,
+.splogocarousel-field-dimensions_advanced .splogocarousel--label ,
+.splogocarousel-field-spacing .splogocarousel--label,
+.splogocarousel-field-dimensions .splogocarousel--label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  user-select: none;
+  min-width: 20px;
+  max-width: 100%;
+  padding: 0 4px;
+  font-size: 12px;
+  text-align: center;
+  color: #555;
+  border: 1px solid #7b776c;
+  background-color: #f5f5f5;
+}
+.splogocarousel-field-border .splogocarousel--icon,
+.splogocarousel-field-column .splogocarousel--icon,
+.splogocarousel-field-spacing .splogocarousel--icon,
+.splogocarousel-field-dimensions_advanced .splogocarousel--label-icon,
+.splogocarousel-field-dimensions .splogocarousel--icon {
+  border-right: 0;
+  border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  -ms-border-radius: 4px 0 0 4px;
+  -o-border-radius: 4px 0 0 4px;
+}
+.splogocarousel-field-border .splogocarousel--icon + input,
+.splogocarousel-field-column .splogocarousel--icon + input,
+.splogocarousel-field-spacing .splogocarousel--icon + input,
+.splogocarousel-field-dimensions .splogocarousel--icon + input {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding:0;
+}
+.splogocarousel-field-border .splogocarousel--unit,
+.splogocarousel-field-column .splogocarousel--unit,
+.splogocarousel-field-spacing .splogocarousel--unit,
+.splogocarousel-field-dimensions_advanced .splogocarousel--label-unit,
+.splogocarousel-field-dimensions .splogocarousel--unit {
+  border-left: 0;
+  border-radius: 0 4px 4px 0;
+}
+.splogocarousel-field-border .splogocarousel--is-unit,
+.splogocarousel-field-spacing .splogocarousel--is-unit,
+.splogocarousel-field-dimensions .splogocarousel--is-unit {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/**
+ * 03. 06. Field: button_set
+ */
+.splogocarousel-field-button_set .splogocarousel--buttons {
+  display: inline-block;
+}
+.splogocarousel-field-button_set .splogocarousel--button {
+  position: relative;
+  z-index: 1;
+  float: left;
+  cursor: pointer;
+  padding: 7px 14px;
+  min-width: 16px;
+  text-align: center;
+  color: #555;
+  border: 1px solid #cccccc;
+  background-color: #f7f7f7;
+  user-select: none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.splogocarousel-field-button_set .splogocarousel--button:first-child {
+  border-radius: 4px 0 0 4px;
+}
+.splogocarousel-field-button_set .splogocarousel--button:last-child {
+  border-radius: 0 4px 4px 0;
+}
+.splogocarousel-field-button_set .splogocarousel--button:not(:first-child) {
+  margin-left: -1px;
+}
+.splogocarousel-field-button_set .splogocarousel--button:hover {
+  background-color: #eee;
+}
+.splogocarousel-field-button_set .splogocarousel--active:hover,
+.splogocarousel-field-button_set .splogocarousel--active {
+  z-index: 2;
+  color: #fff;
+  border-color: #006799;
+  background-color: #0085ba;
+}
+.splogocarousel-field-button_set input {
+  display: none;
+}
+
+/**
+ * 03. 07. Field: checkbox, radio
+ */
+.splogocarousel-field-checkbox ul,
+.splogocarousel-field-radio ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow-y: auto;
+  max-height: 305px;
+}
+.splogocarousel-field-checkbox ul li,
+.splogocarousel-field-radio ul li {
+  margin-bottom: 6px;
+}
+.splogocarousel-field-checkbox ul ul,
+.splogocarousel-field-radio ul ul {
+  max-height: none;
+}
+.splogocarousel-field-checkbox ul ul li,
+.splogocarousel-field-radio ul ul li {
+  margin-left: 8px;
+}
+.splogocarousel-field-checkbox ul ul li:first-child,
+.splogocarousel-field-radio ul ul li:first-child {
+  margin-left: 0;
+}
+.splogocarousel-field-checkbox input,
+.splogocarousel-field-radio input {
+  margin: 0 1px;
+}
+.splogocarousel-field-checkbox .splogocarousel--inline-list li,
+.splogocarousel-field-radio .splogocarousel--inline-list li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.splogocarousel-field-checkbox .splogocarousel--text,
+.splogocarousel-field-radio .splogocarousel--text {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.splogocarousel-field-checkbox .splogocarousel-checker,
+.splogocarousel-field-radio .splogocarousel-checker {
+  cursor: pointer;
+}
+
+/**
+ * 03. 08. Field: code_editor
+ */
+.splogocarousel-field-code_editor .CodeMirror {
+  width: 100%;
+  height: 400px;
+}
+.splogocarousel-field-code_editor .cm-s-default {
+  border: 1px solid #ccd0d4;
+}
+.splogocarousel-field-code_editor textarea {
+  width: 100%;
+  height: 400px;
+}
+
+/**
+ * 03. 09. Field: color
+ */
+.splogocarousel-field-color > input {
+  opacity: 0.75;
+  width: 115px;
+  max-width: 100%;
+}
+.splogocarousel-field-color .button.wp-picker-clear {
+  padding: 0 8px;
+  margin-left: 6px;
+  line-height: 2.54545455;
+  min-height: 30px;
+}
+
+/**
+ * 03. 10. Field: color_group
+ */
+.splogocarousel-field-color_group .splogocarousel--left {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.splogocarousel-field-spacing .splogocarousel--title,
+.splogocarousel-field-color_group .splogocarousel--title {
+  color: #999;
+  margin-bottom: 5px;
+}
+
+.lcp_section_title_typography .splogocarousel--block-font-color {
+  float:left
+}
+.lcp_section_title_typography .splogocarousel--margin-bottom {
+  width: 120px;
+  display: inline-block;
+}
+.lcp_section_title_typography .splogocarousel--margin-bottom input {
+  width: 100%;
+}
+
+/**
+ * 03. 12. Field: date
+ */
+.splogocarousel-field-date input {
+  margin: 0;
+}
+.splogocarousel-field-date .splogocarousel--to {
+  margin-left: 7px;
+}
+
+.splogocarousel-datepicker-wrapper {
+  margin-top: 5px;
+  width: auto;
+  background-color: #fff;
+  z-index: 9999999 !important;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+.splogocarousel-datepicker-wrapper * {
+  float: none;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.splogocarousel-datepicker-wrapper .ui-widget-header,
+.splogocarousel-datepicker-wrapper .ui-datepicker-header {
+  color: #fff;
+  background: #00a0d2;
+}
+.splogocarousel-datepicker-wrapper .ui-datepicker-header .ui-state-hover {
+  cursor: pointer;
+}
+.splogocarousel-datepicker-wrapper .ui-datepicker-title {
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+}
+.splogocarousel-datepicker-wrapper .ui-datepicker-prev,
+.splogocarousel-datepicker-wrapper .ui-datepicker-next {
+  position: static;
+  top: auto;
+  left: auto;
+  right: auto;
+  font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+  font-weight: 900;
+  font-size: 12px;
+  text-align: center;
+  width: 41px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.splogocarousel-datepicker-wrapper .ui-datepicker-next span,
+.splogocarousel-datepicker-wrapper .ui-datepicker-prev span {
+  display: none;
+}
+.splogocarousel-datepicker-wrapper .ui-datepicker-prev {
+  float: left;
+}
+.splogocarousel-datepicker-wrapper .ui-datepicker-next {
+  float: right;
+}
+.splogocarousel-datepicker-wrapper .ui-datepicker-prev:before {
+  content: "\f053";
+}
+.splogocarousel-datepicker-wrapper .ui-datepicker-next:before {
+  content: "\f054";
+}
+.splogocarousel-datepicker-wrapper .ui-datepicker-prev-hover,
+.splogocarousel-datepicker-wrapper .ui-datepicker-next-hover {
+  opacity: 0.75;
+}
+.splogocarousel-datepicker-wrapper tbody .ui-datepicker-week-col {
+  background-color: #f7f7f7;
+}
+.splogocarousel-datepicker-wrapper .ui-datepicker-buttonpane {
+  padding: 10px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+.splogocarousel-datepicker-wrapper .ui-datepicker-buttonpane button {
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 7px 14px;
+  border: 1px solid #eee;
+  background-color: #fff;
+}
+.splogocarousel-datepicker-wrapper select {
+  margin: 0 4px;
+}
+.splogocarousel-datepicker-wrapper select option {
+  color: #555;
+}
+.splogocarousel-datepicker-wrapper table {
+  font-size: 13px;
+  border-collapse: collapse;
+  width: 100%;
+}
+.splogocarousel-datepicker-wrapper thead {
+  color: #fff;
+  background: #32373c;
+}
+.splogocarousel-datepicker-wrapper th {
+  text-align: center;
+  padding: 7px;
+  border: 1px solid #444;
+}
+.splogocarousel-datepicker-wrapper td {
+  text-align: center;
+  border: 1px solid #f4f4f4;
+}
+.splogocarousel-datepicker-wrapper td.ui-datepicker-other-month {
+  border: transparent;
+}
+.splogocarousel-datepicker-wrapper td .ui-state-default {
+  color: #555;
+  width: auto;
+  display: block;
+  padding: 6px 12px;
+}
+.splogocarousel-datepicker-wrapper td .ui-state-active,
+.splogocarousel-datepicker-wrapper td .ui-state-hover {
+  color: #fff;
+  background-color: #0073aa;
+}
+.splogocarousel-datepicker-wrapper td.ui-state-disabled .ui-state-default {
+  opacity: 0.5;
+}
+
+/**
+ * 03. 14. Field: group
+ */
+.splogocarousel-field-group .splogocarousel-cloneable-hidden {
+  display: none !important;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-wrapper {
+  position: relative;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-item {
+  display: none;
+  position: relative;
+  margin-bottom: 5px;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-item h4 {
+  font-size: 1em;
+}
+.splogocarousel-field-group .ui-accordion .splogocarousel-cloneable-item {
+  display: block;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-content {
+  border: 1px solid #ccd0d4;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+.splogocarousel-field-group .splogocarousel-cloneable-content > .splogocarousel-field {
+  padding: 15px;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-title {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  margin: 0;
+  padding: 15px 65px 15px 10px;
+  min-height: 0;
+  font-size: 100%;
+  border: 1px solid #ccd0d4;
+  background-color: #fafafa;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  transition: border-color 0.15s;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-title:active,
+.splogocarousel-field-group .splogocarousel-cloneable-title:hover,
+.splogocarousel-field-group .splogocarousel-cloneable-title:focus {
+  border-color: #999;
+  outline: none;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-helper {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  z-index: 1;
+  font-size: 14px;
+  line-height: 1em;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-helper i {
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+  color: #999;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-helper i:hover {
+  color: #555;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-content {
+  padding: 0;
+  border-top: 0;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-title-prefix,
+.splogocarousel-field-group .splogocarousel-cloneable-title-number {
+  margin-right: 5px;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-alert {
+  display: none;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  color: #a94442;
+  border: 1px solid #ebccd1;
+  background-color: #f2dede;
+}
+.splogocarousel-field-group .widget-placeholder {
+  margin-bottom: 10px;
+  border: 1px dashed #f1c40f;
+  background-color: #fffae4;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-header-icon {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  width: 17px;
+  text-indent: 0;
+  vertical-align: text-top;
+}
+.splogocarousel-field-group .splogocarousel-cloneable-placeholder {
+  background-color: #ddd;
+  margin-top: 4px;
+  width: 100px;
+  height: 10px;
+  font-size: 10px;
+  line-height: 10px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 2px;
+}
+
+/**
+ * 03. 15. Field: icon
+ */
+.splogocarousel-field-icon input {
+  display: none;
+}
+.splogocarousel-field-icon .button {
+  margin-right: 5px;
+}
+.splogocarousel-field-icon .splogocarousel-icon-preview i {
+  display: inline-block;
+  font-size: 16px;
+  width: 30px;
+  height: 28px;
+  line-height: 28px;
+  margin-right: 5px;
+  text-align: center;
+  vertical-align: top;
+  color: #555;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+/**
+ * 03. 16. Field: image_select
+ */
+.splogocarousel-field-layout_preset .splogocarousel--image,
+.splogocarousel-field-image_select .splogocarousel--image {
+  display: inline-block;
+  margin: 0 5px 5px 0;
+}
+.splogocarousel-field-layout_preset .splogocarousel--inline-list .splogocarousel--image,
+.splogocarousel-field-image_select .splogocarousel--inline-list .splogocarousel--image {
+  display: block;
+}
+.splogocarousel-field-layout_preset img,
+.splogocarousel-field-image_select figure {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  margin: 0;
+  vertical-align: bottom;
+  border: 2px solid transparent;
+  background-color: #fff;
+  user-select: none;
+  transition: all 0.2s;
+}
+.splogocarousel-field-layout_preset img:before,
+.splogocarousel-field-image_select figure:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 10px;
+  font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+  font-weight: 900;
+  content: "\f00c";
+  width: 16px;
+  height: 16px;
+  line-height: 14px;
+  opacity: 0;
+  color: #fff;
+  background-color: #222;
+  transition: opacity 0.2s;
+}
+.splogocarousel-field-layout_preset .splogocarousel--active figure,
+.splogocarousel-field-image_select .splogocarousel--active img {
+  border-color: #222;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.splogocarousel-field-image_select .splogocarousel--active figure:before,
+.splogocarousel-field-image_select .splogocarousel--active img:before {
+  opacity: 1;
+}
+.splogocarousel-field-image_select img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.splogocarousel-field-layout_preset input,
+.splogocarousel-field-image_select input {
+  display: none;
+}
+
+.splogocarousel-field-layout_preset .splogocarousel--image {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 10px 10px 0;
+  vertical-align: bottom;
+  outline: 2px solid transparent;
+  background-color: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  outline-offset: -2px;
+}
+.splogocarousel-field-layout_preset .splogocarousel--image:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  font-size: 11px;
+  font-family: FontAwesome;
+  content: "\f00c";
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  opacity: 0;
+  color: #fff;
+  background-color: #3aa225;
+  transition: opacity 0.2s;
+  z-index: 1;
+}
+.splogocarousel-field-layout_preset .splogocarousel--image img {
+  color: #7b8898;
+  outline: solid 3px transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+  max-width: 120px;
+  max-height: 80px;
+  box-shadow: inset 0 0 0px 3px #fff;
+  outline-offset: -3px;
+}
+.splogocarousel-field-layout_preset .splogocarousel--image img {
+  max-width: 100%;
+}
+.splogocarousel-field-layout_preset span {
+  margin-top: 5px;
+  font-weight: 500;
+  text-align: center;
+  margin-right: 10px;
+  display: block;
+  font-size: 12px;
+}
+.splogocarousel-field-layout_preset .splogocarousel--image.splogocarousel--active img {
+  outline-color: #3aa225;
+}
+
+.splogocarousel-field-layout_preset span {
+  margin-top: 5px;
+  font-weight: 500;
+  text-align: center;
+  margin-right: 10px;
+  display: block;
+  font-size: 12px;
+}
+
+/**
+ * 03. 19. Field: media
+ */
+.splogocarousel-field-media .splogocarousel--placeholder {
+  display: flex;
+  align-items: flex-start;
+}
+.splogocarousel-field-media .splogocarousel--placeholder input {
+  width: 100%;
+  margin: 0;
+}
+.splogocarousel-field-media .button {
+  margin-left: 5px;
+}
+.splogocarousel-field-media .hidden + .button {
+  margin-left: 0;
+}
+.splogocarousel-field-media .splogocarousel--preview {
+  position: relative;
+}
+.splogocarousel-field-media .splogocarousel--preview .fa-times {
+  position: absolute;
+  z-index: 1;
+  right: 2px;
+  top: 2px;
+  font-size: 14px;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #dd3333;
+  opacity: 0.75;
+  border-radius: 2px;
+  transition: all 0.2s;
+}
+.splogocarousel-field-media .splogocarousel--preview .fa-times:hover {
+  opacity: 1;
+}
+.splogocarousel-field-media .splogocarousel--preview .fa-times:focus {
+  box-shadow: none;
+}
+
+/**
+ * 03. 22. Field: select
+ */
+.splogocarousel-field-select .splogocarousel-fieldset {
+  min-height: 30px;
+}
+.splogocarousel-field-select .splogocarousel-chosen {
+  display: none;
+}
+.splogocarousel-field-select select {
+  max-width: 100%;
+  margin: 0;
+}
+
+/**
+ * 03. 23. Field: slider
+ */
+.splogocarousel-field-slider .splogocarousel--wrap {
+  display: flex;
+  align-items: center;
+}
+.splogocarousel-field-slider .splogocarousel--input {
+  display: flex;
+  position: relative;
+}
+.splogocarousel-field-slider .splogocarousel--input::after{
+  content: "PRO";
+  background-color: #d4d4d4;
+  padding: 2px 4px;
+  font-size: 8px;
+  border-radius: 2px;
+  height: 11px;
+  line-height: 12px;
+  margin-left: 5px;
+  font-weight: 500;
+  letter-spacing: .25px;
+  margin-top: 7px;
+}
+.splogocarousel-field-slider .splogocarousel--unit {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  user-select: none;
+  padding: 0 6px;
+  font-size: 11px;
+  line-height: 1;
+  border-radius: 0 4px 4px 0;
+  color: #555;
+  border: 1px solid #7e8993;
+  border-left: 0;
+  background-color: #f5f5f5;
+}
+.splogocarousel-field-slider .splogocarousel-slider-ui {
+  margin-right: 15px;
+}
+.splogocarousel-field-slider input[type="number"] {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  width: 50px;
+  text-align: center;
+}
+.splogocarousel-field-slider .splogocarousel--is-unit {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.splogocarousel-field-slider .ui-slider {
+  position: relative;
+  width: 100%;
+  height: 3px;
+  border: none;
+  background: #ddd;
+  border-radius: 2px;
+}
+.splogocarousel-field-slider .ui-slider-range {
+  height: 3px;
+  border: none;
+  background: #333;
+  border-radius: 2px;
+}
+.splogocarousel-field-slider .ui-slider-handle {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: -7px;
+  margin-left: -8px;
+  border: none;
+  background: #333;
+  border-radius: 2px;
+}
+.splogocarousel-field-slider .ui-state-active,
+.splogocarousel-field-slider .ui-slider-handle:hover {
+  cursor: pointer;
+}
+
+/**
+ * 03. 26. Field: spinner
+ */
+.splogocarousel-field-spinner .splogocarousel--spin {
+  float: left;
+}
+.lcp_spinner .splogocarousel-help{
+  margin-left: 5px;
+}
+.splogocarousel-field-spinner .ui-spinner {
+  display: flex;
+}
+.splogocarousel-field-spinner .ui-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-width: 20px;
+  padding: 0 4px;
+  color: #555;
+  border: 1px solid #7e8993;
+  background-color: #f5f5f5;
+  border-radius: 0;
+  box-shadow: none;
+}
+.splogocarousel-field-spinner .ui-spinner-button {
+  cursor: pointer;
+}
+.splogocarousel-field-spinner .ui-spinner-button:hover {
+  background-color: #e7e7e7;
+}
+.splogocarousel-field-spinner .ui-spinner-button:active {
+  background-color: #ddd;
+}
+.splogocarousel-field-spinner .ui-spinner-button:before {
+  font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+}
+.splogocarousel-field-spinner .ui-spinner-down {
+  order: 1;
+  border-right: 0;
+  border-radius: 4px 0 0 4px;
+}
+.splogocarousel-field-spinner .ui-spinner-down:before {
+  content: "\f0d9";
+}
+.splogocarousel-field-spinner .ui-spinner-input {
+  order: 2;
+}
+.splogocarousel-field-spinner .splogocarousel--unit {
+  order: 3;
+  border-left: 0;
+  user-select: none;
+}
+.splogocarousel-field-spinner .ui-spinner-up {
+  order: 4;
+  border-left: 0;
+  border-radius: 0 4px 4px 0;
+}
+.splogocarousel-field-spinner .ui-spinner-up:before {
+  content: "\f0da";
+}
+.splogocarousel-field-spinner input {
+  position: relative;
+  z-index: 1;
+  width: 55px;
+  height: 28px;
+  min-height: 28px;
+  text-align: center;
+  margin: 0;
+  padding: 0 8px;
+  border-radius: 0;
+}
+.splogocarousel-field-spinner .ui-button-text,
+.splogocarousel-field-spinner .ui-button-icon,
+.splogocarousel-field-spinner .ui-button-icon-space {
+  display: none;
+}
+
+/**
+ * 03. 27. Field: switcher
+ */
+.splogocarousel-field-switcher .splogocarousel--switcher {
+  float: left;
+  cursor: pointer;
+  position: relative;
+  width: 60px;
+  height: 26px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: #ed6f6f;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.splogocarousel-field-switcher .splogocarousel--ball {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 24px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: all 0.1s;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.splogocarousel-field-switcher .splogocarousel--on,
+.splogocarousel-field-switcher .splogocarousel--off {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 11px;
+  line-height: 26px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding-right: 28px;
+  opacity: 0;
+  transition: all 0.1s;
+}
+.splogocarousel-field-switcher .splogocarousel--off {
+  padding-right: 0;
+  padding-left: 28px;
+  opacity: 1;
+}
+.splogocarousel-field-switcher .splogocarousel--active {
+  background: #4fb845;
+}
+.splogocarousel-field-switcher .splogocarousel--active .splogocarousel--on {
+  opacity: 1;
+}
+.splogocarousel-field-switcher .splogocarousel--active .splogocarousel--off {
+  opacity: 0;
+}
+.splogocarousel-field-switcher .splogocarousel--active .splogocarousel--ball {
+  left: 100%;
+  margin-left: -28px;
+}
+.splogocarousel-field-switcher .splogocarousel--label {
+  float: left;
+  margin-top: 4px;
+  margin-left: 8px;
+  font-weight: 400;
+  color: #999;
+}
+.splogocarousel-field-switcher input {
+  display: none;
+}
+
+/**
+ * 03. 29. Field: text
+ */
+.splogocarousel-field-text input {
+  width: 50%;
+  max-width: 100%;
+  margin: 0;
+}
+
+/**
+ * 03. 30. Field: textarea
+ */
+.splogocarousel-field-textarea textarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: 125px;
+}
+.splogocarousel-field-textarea .splogocarousel-shortcode-button {
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+/**
+ * 03. 31. Field: typography
+ */
+.splogocarousel-field-typography textarea,
+.splogocarousel-field-typography select {
+  margin: 0;
+  min-width: 100%;
+  max-width: 100%;
+}
+.splogocarousel-field-typography .splogocarousel--title {
+  color: #777;
+  margin: 0 0 2px 0;
+  font-size: 12px;
+}
+.splogocarousel-field-typography .splogocarousel--title small {
+  vertical-align: top;
+}
+.splogocarousel-field-typography .splogocarousel--blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+.splogocarousel-field-typography .splogocarousel--block {
+  flex: 1;
+  max-width: 100%;
+  padding-right: 6px;
+  padding-bottom: 6px;
+}
+.splogocarousel-field-typography .splogocarousel--input {
+  margin: 0;
+  min-width: 100%;
+}
+.splogocarousel-field-typography .splogocarousel--input-wrap {
+  position: relative;
+}
+.splogocarousel-field-typography .splogocarousel--unit {
+  position: absolute;
+  z-index: 1;
+  right: 4px;
+  top: 4px;
+  bottom: 4px;
+  padding: 2px 6px;
+  color: #666;
+  font-size: 11px;
+  line-height: 1;
+  border-radius: 2px;
+  background: #eee;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.splogocarousel-field-typography .splogocarousel--preview {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 20px;
+  color: #222;
+  border: 1px solid #eee;
+  background-color: #fff;
+  border-radius: 2.5px;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+.splogocarousel-field-typography .splogocarousel--block-preview {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+  max-width: 100%;
+}
+.splogocarousel-field-typography .splogocarousel--black-background {
+  border-color: #000;
+  background-color: #000;
+}
+.splogocarousel-field-typography .splogocarousel--toggle {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #999;
+}
+.splogocarousel-field-typography .splogocarousel--block-extra-styles {
+  margin-top: 5px;
+}
+
+/**
+ * 03. 33. Field: wp_editor
+ */
+.splogocarousel-field-wp_editor .splogocarousel-wp-editor {
+  float: left;
+  width: 100%;
+}
+.splogocarousel-field-wp_editor .mce-toolbar-grp {
+  border: none;
+}
+.splogocarousel-field-wp_editor .mce-btn.mce-active button,
+.splogocarousel-field-wp_editor .mce-btn.mce-active:hover button,
+.splogocarousel-field-wp_editor .mce-btn.mce-active i,
+.splogocarousel-field-wp_editor .mce-btn.mce-active:hover i {
+  color: #23282d;
+}
+.splogocarousel-field-wp_editor .wp-media-buttons {
+  position: relative;
+  z-index: 2;
+}
+.splogocarousel-field-wp_editor .wp-editor-tabs {
+  position: relative;
+  z-index: 1;
+}
+.splogocarousel-field-wp_editor .splogocarousel-no-tinymce {
+  border: 1px solid #e5e5e5;
+}
+.splogocarousel-field-wp_editor .splogocarousel-no-quicktags .wp-media-buttons {
+  float: none;
+  display: block;
+}
+.splogocarousel-field-wp_editor .splogocarousel-no-quicktags .mce-tinymce {
+  box-shadow: none;
+  border: 1px solid #e5e5e5;
+}
+.splogocarousel-field-wp_editor textarea {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  box-shadow: none;
+}
+
+/**
+ * 03. 35. Field: subheading
+ */
+.splogocarousel-field-subheading {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  color: #23282d;
+  background-color: #f7f7f7;
+}
+/**
+ * 03. 37. Field: notice
+ */
+.splogocarousel-field-notice {
+  background-color: transparent;
+}
+
+.splogocarousel-notice {
+  padding: 12px;
+  background-color: #fff;
+  border-left-style: solid;
+  border-left-width: 0;
+  padding-left: 0;
+  font-style: italic;
+  color: #999;
+  /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); */
+}
+
+.splogocarousel-notice-success {
+  border-color: #46b450;
+}
+
+.splogocarousel-notice-info {
+  border-color: #339fd4;
+}
+
+.splogocarousel-notice-danger {
+  border-color: #dc3232;
+}
+
+.splogocarousel-notice-normal {
+  border-color: #222;
+}
+
+/**
+ * 03. 39. Field: link
+ */
+.splogocarousel-field-link input {
+  display: none;
+}
+.splogocarousel-field-link .splogocarousel--result {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 7px 10px;
+  margin-bottom: 7px;
+  color: #777;
+  border: 1px solid #e5e5e5;
+  background-color: #f5f5f5;
+  border-radius: 2px;
+  world-break: break-word;
+}
+.splogocarousel-field-link .splogocarousel--wrap {
+  position: relative;
+  float: left;
+  width: 100px;
+}
+.splogocarousel-field-link .splogocarousel--unit {
+  position: absolute;
+  z-index: 1;
+  right: 4px;
+  top: 4px;
+  bottom: 4px;
+  padding: 2px 6px;
+  color: #666;
+  font-size: 11px;
+  line-height: 1;
+  border-radius: 2px;
+  background: #eee;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/**
+ * 03. 40. others
+ */
+.splogocarousel-help {
+  cursor: help;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 13px;
+    color: #aaa;
+    display: inline-block;
+}
+.splogocarousel-help .splogocarousel-help-text {
+  display: none;
+}
+
+.splogocarousel-image-preview {
+  display: inline-block;
+  position: relative;
+  padding: 4px;
+  min-width: 100px;
+  min-height: 100px;
+  line-height: 100px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+.splogocarousel-image-preview img {
+  max-width: 100px;
+  max-height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+.splogocarousel-field-custom .splogocarousel-field {
+  padding: 0;
+}
+
+.splogocarousel-field .chosen-container-single .chosen-single {
+  height: 28px;
+  line-height: 26px;
+}
+.splogocarousel-field .chosen-container-single .chosen-single abbr {
+  top: 0;
+  right: 20px;
+  font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+  font-weight: 900;
+  font-size: 12px;
+  height: 100%;
+  width: 18px;
+  color: #aaa;
+  text-align: center;
+  background: none;
+}
+.splogocarousel-field .chosen-container-single .chosen-single abbr:before {
+  content: "\f00d";
+}
+.splogocarousel-field .chosen-container-single .chosen-single abbr:hover {
+  color: #555;
+}
+.splogocarousel-field .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+  font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+  font-weight: 900;
+  font-size: 12px;
+  height: 100%;
+  width: 18px;
+  color: #aaa;
+  text-align: center;
+  background: none;
+}
+.splogocarousel-field .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:before {
+  content: "\f00d";
+  display: inline-block;
+  padding-top: 3px;
+}
+.splogocarousel-field .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
+  color: #555;
+}
+.splogocarousel-field .chosen-container-single .chosen-single div b {
+  font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+  font-weight: 900;
+  font-size: 14px;
+  color: #aaa;
+  background: none;
+}
+.splogocarousel-field .chosen-container-single .chosen-single div b:before {
+  content: "\f107";
+}
+.splogocarousel-field .chosen-container-single .chosen-single div b:hover {
+  color: #555;
+}
+.splogocarousel-field .chosen-container-multi .chosen-choices li.search-choice-placeholder {
+  border: 1px dashed #aaa;
+  margin: 3px 5px 3px 0;
+}
+.splogocarousel-field .chosen-container-multi .ui-sortable li.search-choice span {
+  cursor: move;
+}
+.splogocarousel-field .chosen-container-active.chosen-with-drop .chosen-single div b:before {
+  content: "\f106";
+}
+.splogocarousel-field .chosen-container-single .chosen-single-with-deselect span {
+  margin-right: 40px;
+}
+.splogocarousel-field .chosen-container-single .chosen-search input[type="text"] {
+  background: none;
+}
+.splogocarousel-field .chosen-container-single .chosen-search:before {
+  font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free", "FontAwesome";
+  font-weight: 900;
+  font-size: 11px;
+  content: "\f002";
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  color: #aaa;
+}
+.splogocarousel-field .wp-picker-container {
+  display: inline-block;
+}
+.splogocarousel-field .wp-picker-container .wp-color-result.button {
+  margin-bottom: 0;
+}
+.splogocarousel-field .splogocarousel--transparent-wrap {
+  display: none;
+  position: relative;
+  top: -1px;
+  width: 235px;
+  padding: 9px 10px;
+  border: 1px solid #dfdfdf;
+  border-top: none;
+  background-color: #fff;
+}
+.splogocarousel-field .wp-picker-active .splogocarousel--transparent-wrap {
+  display: block;
+}
+.splogocarousel-field .splogocarousel--transparent-slider {
+  position: absolute;
+  width: 190px;
+  margin-left: 2px;
+  height: 18px;
+}
+.splogocarousel-field .splogocarousel--transparent-slider .ui-slider-handle {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  z-index: 5;
+  border-color: #aaa;
+  border-style: solid;
+  border-width: 4px 3px;
+  width: 10px;
+  height: 16px;
+  margin: 0 -5px;
+  background: none;
+  cursor: ew-resize;
+  opacity: 0.9;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.splogocarousel-field .splogocarousel--transparent-slider .ui-slider-handle:before {
+  content: " ";
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  top: -3px;
+  bottom: -3px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+}
+.splogocarousel-field .splogocarousel--transparent-offset {
+  height: 18px;
+  width: 200px;
+  background: url(../images/checkerboard.png) repeat-y center left scroll #fff;
+  border-radius: 2px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.splogocarousel-field .splogocarousel--transparent-text {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  width: 30px;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #999;
+}
+.splogocarousel-field .splogocarousel--transparent-button {
+  cursor: pointer;
+  user-select: none;
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+  border-radius: 2px;
+  padding: 3px 7px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.2px;
+  color: #777;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+.splogocarousel-field .splogocarousel--transparent-active .wp-color-result {
+  background-image: url(../images/checkerboard.png);
+  background-size: 135px;
+  background-position: center left;
+  background-color: transparent !important;
+}
+.splogocarousel-field .splogocarousel--transparent-active .splogocarousel--transparent-button {
+  color: #fff;
+  border-color: #3ea032;
+  background-color: #4fb845;
+}
+
+.splogocarousel-field .splogocarousel--transparent-active .fa:before {
+  content: "\f205";
+}
+
+/**
+ * 04. Widget
+ */
+.splogocarousel-widgets > .splogocarousel-field {
+  position: relative;
+  top: -1px;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 12px 15px;
+}
+.splogocarousel-widgets > .splogocarousel-field .splogocarousel-field {
+  margin-left: 0;
+  margin-right: 0;
+}
+.splogocarousel-widgets > .splogocarousel-field .splogocarousel-title {
+  float: none;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.splogocarousel-widgets > .splogocarousel-field .splogocarousel-fieldset {
+  float: none;
+  width: 100%;
+}
+.splogocarousel-widgets .splogocarousel-field-text input {
+  width: 100%;
+}
+.splogocarousel-widgets .splogocarousel-field-notice .splogocarousel-notice {
+  padding: 15px;
+}
+
+.control-section .splogocarousel-widgets > .splogocarousel-field {
+  margin-right: -10px;
+  margin-left: -10px;
+  padding: 10px 12px;
+}
+
+/**
+ * 05. Widget
+ */
+.control-section .splogocarousel-field {
+  padding: 0;
+}
+.control-section .splogocarousel-field .splogocarousel-title {
+  float: none;
+  width: 100%;
+  margin-bottom: 6px;
+}
+.control-section .splogocarousel-field .splogocarousel-title h4 {
+  display: block;
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 600;
+  color: inherit;
+}
+.control-section .splogocarousel-field .splogocarousel-fieldset {
+  float: none;
+  width: 100%;
+}
+.control-section .splogocarousel-help {
+  top: -5px;
+  right: -5px;
+}
+.control-section .splogocarousel-field-select select {
+  width: 100%;
+}
+.control-section .splogocarousel-field-heading {
+  color: inherit;
+  font-size: 14px;
+  line-height: 1em;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 15px;
+}
+.control-section .splogocarousel-field-subheading {
+  color: inherit;
+  font-size: 11px;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 10px 15px;
+}
+.control-section .splogocarousel-subtitle-text {
+  margin-top: 4px;
+  font-size: 12px;
+  font-style: italic;
+}
+.control-section .splogocarousel-field-submessage .splogocarousel-submessage {
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 15px;
+}
+.control-section .splogocarousel-fieldset .splogocarousel-field-submessage .splogocarousel-submessage,
+.control-section .splogocarousel-fieldset .splogocarousel-field-heading,
+.control-section .splogocarousel-fieldset .splogocarousel-field-subheading {
+  margin-left: 0;
+  margin-right: 0;
+}
+.control-section .splogocarousel-field-date .splogocarousel--to {
+  margin-left: 0;
+}
+.control-section .splogocarousel-field-sorter ul li {
+  padding: 5px;
+}
+.control-section .splogocarousel-field-sorter .splogocarousel-modules {
+  float: none;
+  width: 100%;
+}
+.control-section .splogocarousel-field-sorter .splogocarousel-modules:first-child {
+  padding-right: 0;
+  padding-bottom: 15px;
+}
+.control-section .splogocarousel-field-background .splogocarousel--background-attributes {
+  flex-direction: column;
+}
+.control-section .splogocarousel-field-spacing input {
+  width: 90px;
+}
+.control-section .splogocarousel-field-border .splogocarousel--input {
+  flex: 1 50%;
+}
+.control-section .splogocarousel-field-border input,
+.control-section .splogocarousel-field-border select {
+  width: 100%;
+}
+.control-section .splogocarousel-field-spinner input {
+  width: 50px;
+}
+.control-section .splogocarousel-field-number .splogocarousel--wrap {
+  width: 100%;
+}
+.control-section .splogocarousel-field-backup .splogocarousel-export-data {
+  display: none;
+}
+.control-section .splogocarousel-field-fieldset .splogocarousel-fieldset-content {
+  border-color: #e5e5e5;
+}
+.control-section .splogocarousel-tabbed-content > .splogocarousel-field,
+.control-section .splogocarousel-sortable-content > .splogocarousel-field,
+.control-section .splogocarousel-repeater-content > .splogocarousel-field,
+.control-section .splogocarousel-fieldset-content > .splogocarousel-field,
+.control-section .splogocarousel-cloneable-content > .splogocarousel-field,
+.control-section .splogocarousel-accordion-content > .splogocarousel-field {
+  padding: 10px;
+}
+.control-section .splogocarousel-tabbed-content > .splogocarousel-field .splogocarousel-title,
+.control-section .splogocarousel-sortable-content > .splogocarousel-field .splogocarousel-title,
+.control-section .splogocarousel-repeater-content > .splogocarousel-field .splogocarousel-title,
+.control-section .splogocarousel-fieldset-content > .splogocarousel-field .splogocarousel-title,
+.control-section .splogocarousel-cloneable-content > .splogocarousel-field .splogocarousel-title,
+.control-section .splogocarousel-accordion-content > .splogocarousel-field .splogocarousel-title {
+  margin-bottom: 5px;
+}
+.control-section .splogocarousel-tabbed-content > .splogocarousel-field h4,
+.control-section .splogocarousel-sortable-content > .splogocarousel-field h4,
+.control-section .splogocarousel-repeater-content > .splogocarousel-field h4,
+.control-section .splogocarousel-fieldset-content > .splogocarousel-field h4,
+.control-section .splogocarousel-cloneable-content > .splogocarousel-field h4,
+.control-section .splogocarousel-accordion-content > .splogocarousel-field h4 {
+  font-size: 12px;
+}
+.control-section .splogocarousel-depend-hidden.splogocarousel-depend-on {
+  display: none !important;
+}
+.control-section .splogocarousel-depend-visible.splogocarousel-depend-on {
+  border-top: 0 !important;
+}
+
+/**
+ * 06. Taxonomy
+ */
+.splogocarousel-taxonomy {
+  max-width: 95%;
+}
+.splogocarousel-taxonomy > .splogocarousel-field {
+  border-top: none !important;
+}
+.splogocarousel-taxonomy > .splogocarousel-field-heading {
+  font-size: 1.1em;
+  padding: 20px !important;
+  border: 1px solid #ddd;
+}
+.splogocarousel-taxonomy > .splogocarousel-field-subheading {
+  font-size: 12px;
+  padding: 15px !important;
+  border: 1px solid #ddd;
+}
+.splogocarousel-taxonomy > .splogocarousel-field-submessage .splogocarousel-submessage {
+  padding: 15px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+.splogocarousel-taxonomy > .splogocarousel-field-notice {
+  background-color: transparent;
+}
+.splogocarousel-taxonomy .splogocarousel-section-title {
+  display: block;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.splogocarousel-taxonomy-add-fields > .splogocarousel-field {
+  padding: 8px 0;
+}
+.splogocarousel-taxonomy-add-fields > .splogocarousel-field > .splogocarousel-title {
+  float: none;
+  width: 100%;
+  padding: 2px 2px 4px 0;
+}
+.splogocarousel-taxonomy-add-fields > .splogocarousel-field > .splogocarousel-title h4 {
+  font-size: 12px;
+  font-weight: normal;
+}
+.splogocarousel-taxonomy-add-fields > .splogocarousel-field > .splogocarousel-fieldset {
+  float: none;
+  width: 100%;
+}
+.splogocarousel-taxonomy-add-fields > .splogocarousel-field > .splogocarousel-fieldset > .splogocarousel-help {
+  right: -5px;
+}
+.splogocarousel-taxonomy-add-fields + p.submit {
+  margin-top: 0;
+}
+
+.splogocarousel-taxonomy-edit-fields > .splogocarousel-field {
+  padding: 20px 0;
+}
+.splogocarousel-taxonomy-edit-fields > .splogocarousel-field > .splogocarousel-title {
+  width: 200px;
+}
+.splogocarousel-taxonomy-edit-fields > .splogocarousel-field > .splogocarousel-title h4 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.3;
+  display: inline-block;
+  vertical-align: middle;
+}
+.splogocarousel-taxonomy-edit-fields > .splogocarousel-field > .splogocarousel-fieldset {
+  width: calc(100% - 220px);
+}
+.splogocarousel-taxonomy-edit-fields > .splogocarousel-field > .splogocarousel-fieldset > .splogocarousel-help {
+  top: -5px;
+  right: -5px;
+}
+.splogocarousel-taxonomy-edit-fields > .splogocarousel-field-submessage {
+  margin: 20px 0;
+}
+.splogocarousel-taxonomy-edit-fields > .splogocarousel-field-subheading,
+.splogocarousel-taxonomy-edit-fields > .splogocarousel-field-heading {
+  margin: 20px 0;
+  border: 1px solid #ddd;
+}
+
+/**
+ * 08. Nav Menu
+ */
+.splogocarousel-nav-menu-options {
+  clear: both;
+  float: left;
+  width: 100%;
+}
+.splogocarousel-nav-menu-options > .splogocarousel-fields {
+  margin-left: -10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.splogocarousel-nav-menu-options > .splogocarousel-fields > .splogocarousel-field {
+  padding: 12px 14px 12px 12px;
+}
+.splogocarousel-nav-menu-options > .splogocarousel-fields > .splogocarousel-field .splogocarousel-title {
+  float: none;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.splogocarousel-nav-menu-options > .splogocarousel-fields > .splogocarousel-field .splogocarousel-fieldset {
+  float: none;
+  width: 100%;
+}
+.splogocarousel-nav-menu-options .splogocarousel-field-text input {
+  width: 100%;
+}
+.splogocarousel-nav-menu-options .splogocarousel-field-notice .splogocarousel-notice {
+  padding: 15px;
+}
+
+.splogocarousel-nav-menu-title {
+  padding: 12px 14px 12px 12px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.splogocarousel-nav-menu-title:first-child {
+  border-top: 0;
+}
+.splogocarousel-nav-menu-title h4 {
+  margin: 0;
+  padding: 0;
+  color: #23282d;
+}
+
+.splogocarousel-nav-menu-icon {
+  margin-right: 5px;
+}
+
+/**
+ * 06. Profile
+ */
+/* .splogocarousel-profile-options > h2 > .fa {
+  padding-right: 7px;
+}
+.splogocarousel-profile-options > .splogocarousel-field {
+  max-width: 750px;
+  padding: 15px 0;
+  border-top: none !important;
+}
+.splogocarousel-profile-options > .splogocarousel-field > .splogocarousel-title {
+  width: 200px;
+}
+.splogocarousel-profile-options > .splogocarousel-field > .splogocarousel-title h4 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.3;
+  display: inline-block;
+  vertical-align: middle;
+}
+.splogocarousel-profile-options > .splogocarousel-field > .splogocarousel-fieldset {
+  width: calc(100% - 220px);
+}
+.splogocarousel-profile-options > .splogocarousel-field > .splogocarousel-fieldset > .splogocarousel-help {
+  top: -15px;
+  right: -5px;
+}
+.splogocarousel-profile-options > .splogocarousel-field-heading {
+  font-size: 1.1em;
+}
+.splogocarousel-profile-options > .splogocarousel-field-subheading {
+  font-size: 12px;
+}
+.splogocarousel-profile-options > .splogocarousel-field-subheading,
+.splogocarousel-profile-options > .splogocarousel-field-heading {
+  margin: 10px 0;
+  padding: 15px !important;
+  border: 1px solid #ddd;
+}
+.splogocarousel-profile-options > .splogocarousel-field-submessage {
+  margin: 20px 0;
+}
+.splogocarousel-profile-options > .splogocarousel-field-submessage .splogocarousel-submessage {
+  padding: 10px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+.splogocarousel-profile-options > .splogocarousel-field-notice {
+  background-color: transparent;
+} */
+
+/**
+ * 09. Modal
+ */
+.splogocarousel-modal {
+  position: fixed;
+  z-index: 100101;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.splogocarousel-modal.hidden {
+  display: none;
+}
+
+.splogocarousel-modal-icon {
+  z-index: 100102;
+}
+
+.splogocarousel-modal-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.splogocarousel-modal-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 100px 0;
+}
+
+.splogocarousel-modal-inner {
+  position: relative;
+  z-index: 10;
+  width: 760px;
+  height: 750px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.splogocarousel-modal-content {
+  position: relative;
+  overflow: hidden;
+  overflow-y: auto;
+  height: 595px;
+}
+.splogocarousel-modal-content .splogocarousel-shortcode-button {
+  display: none;
+}
+.splogocarousel-modal-content .splogocarousel-field {
+  padding: 15px 30px 15px 15px;
+}
+.splogocarousel-modal-content a:active,
+.splogocarousel-modal-content a:focus {
+  outline: none;
+  box-shadow: none;
+}
+.splogocarousel-modal-content h4 {
+  font-size: 13px;
+}
+.splogocarousel-modal-content h4 small {
+  font-style: italic;
+  font-weight: 400;
+  color: #aaa;
+}
+
+.splogocarousel-modal-title {
+  position: relative;
+  background-color: #fcfcfc;
+  border-bottom: 1px solid #ddd;
+  height: 36px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 36px;
+  margin: 0;
+  padding: 0 36px 0 16px;
+}
+
+.splogocarousel-modal-header {
+  width: 100%;
+  padding: 14px 0;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+.splogocarousel-modal-header select {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 1;
+  height: 30px;
+  min-height: 30px;
+  background-color: #fff;
+}
+
+.splogocarousel-modal-close {
+  color: #666;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.splogocarousel-modal-close:before {
+  font: normal 20px/36px dashicons;
+  content: "\f158";
+  vertical-align: top;
+  width: 36px;
+  height: 36px;
+}
+.splogocarousel-modal-close:hover {
+  opacity: 0.5;
+}
+
+.splogocarousel-modal-insert-wrapper {
+  text-align: center;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+}
+
+.splogocarousel-modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+/**
+ * 09. 01. Shortcode Modal
+ */
+.splogocarousel--repeatable {
+  padding: 15px 15px 0 15px;
+}
+
+.splogocarousel--repeat-button-block {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.splogocarousel--repeat-shortcode {
+  position: relative;
+  margin-bottom: 15px;
+  border: 1px dashed #ddd;
+}
+.splogocarousel--repeat-shortcode:first-child .splogocarousel-repeat-remove {
+  display: none;
+}
+.splogocarousel--repeat-shortcode .splogocarousel-repeat-remove {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 10;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #e14d43;
+  opacity: 0.5;
+}
+.splogocarousel--repeat-shortcode .splogocarousel-repeat-remove:hover {
+  opacity: 0.5;
+}
+
+.splogocarousel-shortcode-single .splogocarousel-modal-inner {
+  height: 750px;
+}
+.splogocarousel-shortcode-single .splogocarousel-modal-content {
+  height: 652px;
+}
+
+.elementor-editor-active .splogocarousel-shortcode-button {
+  margin-left: 5px;
+}
+.elementor-editor-active .splogocarousel-modal .hidden {
+  display: none !important;
+}
+
+/**
+ * 09. 02. Gutenberg Modal
+ */
+.splogocarousel-shortcode-block {
+  text-align: center;
+  padding: 14px;
+  font-size: 13px;
+  background-color: #f5f5f5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    sans-serif;
+}
+
+.splogocarousel-shortcode-block .components-button {
+  margin-bottom: 10px;
+}
+
+/**
+ * 09. 03. Icon Modal
+ */
+.splogocarousel-modal-icon .splogocarousel-icon-title {
+  padding: 15px 0;
+  margin: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #eee;
+  background-color: #f7f7f7;
+}
+.splogocarousel-modal-icon .splogocarousel-modal-header {
+  text-align: center;
+}
+.splogocarousel-modal-icon .splogocarousel-icon-search {
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+}
+.splogocarousel-modal-icon i {
+  cursor: pointer;
+  display: inline-block;
+  margin: 4px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+  border-radius: 2px;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+.splogocarousel-modal-icon i:hover {
+  color: #fff;
+  border-color: #222;
+  background-color: #222;
+}
+.splogocarousel-modal-icon .splogocarousel-modal-content {
+  padding: 10px;
+  height: 618px;
+}
+.splogocarousel-modal-icon .splogocarousel-error-text {
+  padding: 10px;
+}
+
+.splogocarousel-modal-loading {
+  display: none;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.splogocarousel-loading {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: #ccc;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+}
+.splogocarousel-loading:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  content: "";
+  margin-top: -2px;
+  margin-left: -2px;
+  background-color: white;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: splogocarouselLoader;
+  border-radius: 4px;
+}
+
+@keyframes splogocarouselLoader {
+  0% {
+    transform: rotate(0deg) translateX(-6px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(-6px) rotate(-360deg);
+  }
+}
+/**
+ * 10. Helper
+ */
+.splogocarousel-subtitle-text {
+  margin-top: 6px;
+  font-weight: 400;
+  color: #999;
+  font-style: italic;
+}
+
+.splogocarousel-desc-text {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  font-weight: 400;
+  color: #999;
+  font-style: italic;
+}
+
+.splogocarousel-error-text {
+  margin-top: 6px;
+  color: #d02c21;
+}
+
+.splogocarousel-before-text {
+  margin-bottom: 6px;
+}
+
+.splogocarousel-after-text {
+  margin-top: 6px;
+}
+
+.splogocarousel-metabox-hide {
+  display: none !important;
+}
+
+.splogocarousel-metabox-show {
+  display: block !important;
+}
+
+.splogocarousel-depend-hidden.splogocarousel-depend-on {
+  display: none;
+}
+
+.splogocarousel-depend-visible.splogocarousel-depend-on {
+  display: block;
+  opacity: 0.75;
+  filter: grayscale(1);
+  user-select: none;
+  border-top: 1px solid #eee;
+}
+.splogocarousel-depend-visible.splogocarousel-depend-on .clear:before {
+  content: "";
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: #eee;
+  opacity: 0.25;
+  z-index: 10;
+}
+
+.splogocarousel-warning-primary {
+  color: #fff !important;
+  border-color: #dc3545 !important;
+  background: #dc3545 !important;
+}
+.splogocarousel-warning-primary:hover,
+.splogocarousel-warning-primary:focus {
+  border-color: #bd2130 !important;
+  background: #bd2130 !important;
+}
+.splogocarousel-warning-primary:focus {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #bd2130 !important;
+}
+.splogocarousel-warning-primary:active {
+  border-color: #bd2130 !important;
+  background: #bd2130 !important;
+}
+
+.splogocarousel-form-result {
+  display: none;
+  padding: 12px;
+    margin: 0 0 15px 0;
+    user-select: none;
+    border-left: 4px solid #555;
+    background-color: #fff;
+}
+
+.splogocarousel-form-show {
+  display: block;
+}
+
+.splogocarousel-form-success {
+  border-left-color: #46b450;
+}
+
+/* .splogocarousel-form-warning {
+  border-left-color: #faebcc;
+} */
+
+.splogocarousel-label-error {
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  font-size: 10px;
+  line-height: 10px;
+  height: 10px;
+  width: 10px;
+  padding: 1px;
+  font-style: normal;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+  background-color: #e10000;
+  border-radius: 2px;
+}
+
+.splogocarousel-no-option {
+  padding: 30px;
+}
+
+.splogocarousel-input-number {
+  -moz-appearance: textfield;
+}
+
+.splogocarousel-input-number::-webkit-inner-spin-button,
+.splogocarousel-input-number::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.splogocarousel-fa5-shims .splogocarousel .fas,
+.splogocarousel-fa5-shims .splogocarousel .far,
+.splogocarousel-fa5-shims .splogocarousel .fab {
+  font-family: "FontAwesome";
+  font-style: normal;
+}
+
+/**
+ * 12. Responsive
+ */
+@media only screen and (max-width: 1200px) {
+  .splogocarousel-metabox .splogocarousel-field .splogocarousel-title {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .splogocarousel-metabox .splogocarousel-field .splogocarousel-fieldset {
+    float: none;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 782px) {
+  .splogocarousel-header-inner {
+    text-align: center;
+  }
+  .splogocarousel-header-inner h1 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .splogocarousel-form-result {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .splogocarousel-search,
+  .splogocarousel-header-right,
+  .splogocarousel-header-left {
+    width: 100%;
+  }
+
+  .splogocarousel-search {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .splogocarousel-footer {
+    text-align: center;
+  }
+
+  .splogocarousel-buttons {
+    float: none;
+  }
+
+  .splogocarousel-copyright {
+    float: none;
+    margin-top: 10px;
+  }
+
+  .splogocarousel-nav,
+  .splogocarousel-expand-all,
+  .splogocarousel-reset-section,
+  .splogocarousel-nav-background {
+    display: none !important;
+  }
+
+  .splogocarousel-nav-normal + .splogocarousel-content {
+    margin-left: 0;
+  }
+
+  .splogocarousel-section-title,
+  .splogocarousel-section {
+    display: block !important;
+  }
+
+  .splogocarousel-field .splogocarousel-title {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .splogocarousel-field .splogocarousel-fieldset {
+    float: none;
+    width: 100%;
+  }
+
+  .splogocarousel-field-color .button.wp-picker-clear {
+    padding: 0 8px;
+    line-height: 2.14285714;
+    min-height: 32px;
+  }
+
+  .splogocarousel-modal-inner {
+    width: 350px;
+    height: 400px;
+  }
+
+  .splogocarousel-modal-content {
+    height: 237px;
+  }
+
+  .splogocarousel-icon-dialog .splogocarousel-modal-inner {
+    width: 305px;
+    height: 380px;
+  }
+  .splogocarousel-icon-dialog .splogocarousel-modal-content {
+    height: 267px;
+  }
+
+  .splogocarousel-modal-icon .splogocarousel-modal-inner {
+    width: 330px;
+    height: 385px;
+  }
+  .splogocarousel-modal-icon .splogocarousel-modal-content {
+    height: 252px;
+  }
+
+  .splogocarousel-profile-options > .splogocarousel-field > .splogocarousel-title,
+  .splogocarousel-taxonomy-edit-fields > .splogocarousel-field > .splogocarousel-title {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .splogocarousel-profile-options > .splogocarousel-field > .splogocarousel-fieldset,
+  .splogocarousel-taxonomy-edit-fields > .splogocarousel-field > .splogocarousel-fieldset {
+    float: none;
+    width: 100%;
+  }
+
+  .splogocarousel-nav-menu-options > .splogocarousel-fields {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .splogocarousel-nav-menu-options > .splogocarousel-fields > .splogocarousel-field {
+    padding: 10px;
+  }
+}
+/**
+ * Chosen JS Styles
+ */
+.chosen-container {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  user-select: none;
+}
+
+.chosen-container * {
+  box-sizing: border-box;
+}
+
+.chosen-container .chosen-drop {
+  position: absolute;
+  top: 100%;
+  z-index: 1010;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-top: 0;
+  background: #fff;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(100% 100%);
+}
+
+.chosen-container.chosen-with-drop .chosen-drop {
+  clip: auto;
+  clip-path: none;
+}
+
+.chosen-container a {
+  cursor: pointer;
+}
+
+.chosen-container .search-choice .group-name,
+.chosen-container .chosen-single .group-name {
+  margin-right: 4px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: normal;
+  color: #999999;
+}
+
+.chosen-container .search-choice .group-name:after,
+.chosen-container .chosen-single .group-name:after {
+  content: ":";
+  padding-left: 2px;
+  vertical-align: top;
+}
+
+.chosen-container-single .chosen-single {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 0 0 0 8px;
+  height: 25px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: #fff;
+  background: linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
+  background-clip: padding-box;
+  box-shadow: 0 0 3px #fff inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #444;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 24px;
+}
+
+.chosen-container-single .chosen-default {
+  color: #999;
+}
+
+.chosen-container-single .chosen-single span {
+  display: block;
+  overflow: hidden;
+  margin-right: 26px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chosen-container-single .chosen-single-with-deselect span {
+  margin-right: 38px;
+}
+
+.chosen-container-single .chosen-single abbr {
+  position: absolute;
+  top: 6px;
+  right: 26px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  font-size: 1px;
+}
+
+.chosen-container-single .chosen-single div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 18px;
+  height: 100%;
+}
+
+.chosen-container-single .chosen-single div b {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.chosen-container-single .chosen-search {
+  position: relative;
+  z-index: 1010;
+  margin: 0;
+  padding: 3px 4px;
+  white-space: nowrap;
+}
+
+.chosen-container-single .chosen-search input[type="text"] {
+  margin: 1px 0;
+  padding: 4px 20px 4px 5px;
+  width: 100%;
+  height: auto;
+  outline: 0;
+  border: 1px solid #aaa;
+  font-size: 1em;
+  font-family: sans-serif;
+  line-height: normal;
+  border-radius: 0;
+}
+
+.chosen-container-single .chosen-drop {
+  margin-top: -1px;
+  border-radius: 0 0 4px 4px;
+  background-clip: padding-box;
+}
+
+.chosen-container-single.chosen-container-single-nosearch .chosen-search {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(100% 100%);
+}
+
+.chosen-container .chosen-results {
+  color: #444;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0 4px 4px 0;
+  padding: 0 0 0 4px;
+  max-height: 240px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.chosen-container .chosen-results li {
+  display: none;
+  margin: 0;
+  padding: 5px 6px;
+  list-style: none;
+  line-height: 15px;
+  word-wrap: break-word;
+  -webkit-touch-callout: none;
+}
+
+.chosen-container .chosen-results li.active-result {
+  display: list-item;
+  cursor: pointer;
+}
+
+.chosen-container .chosen-results li.disabled-result {
+  display: list-item;
+  color: #ccc;
+  cursor: default;
+}
+
+.chosen-container .chosen-results li.highlighted {
+  background-color: #3875d7;
+  background-image: linear-gradient(#3875d7 20%, #2a62bc 90%);
+  color: #fff;
+}
+
+.chosen-container .chosen-results li.no-results {
+  color: #777;
+  display: list-item;
+  background: #f4f4f4;
+}
+
+.chosen-container .chosen-results li.group-result {
+  display: list-item;
+  font-weight: bold;
+  cursor: default;
+}
+
+.chosen-container .chosen-results li.group-option {
+  padding-left: 15px;
+}
+
+.chosen-container .chosen-results li em {
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.chosen-container-multi .chosen-choices {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 5px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  background-image: linear-gradient(#eee 1%, #fff 15%);
+  cursor: text;
+}
+
+.chosen-container-multi .chosen-choices li {
+  float: left;
+  list-style: none;
+}
+
+.chosen-container-multi .chosen-choices li.search-field {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+  margin: 1px 0;
+  padding: 0;
+  outline: 0;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none;
+  color: #999;
+  font-size: 100%;
+  font-family: sans-serif;
+  line-height: normal;
+  border-radius: 0;
+  width: 25px;
+  height: 25px;
+  min-height: 25px;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice {
+  position: relative;
+  margin: 3px 5px 3px 0;
+  padding: 3px 20px 3px 6px;
+  border: 1px solid #aaa;
+  max-width: 100%;
+  border-radius: 3px;
+  background-color: #eeeeee;
+  background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
+  background-size: 100% 19px;
+  background-repeat: repeat-x;
+  background-clip: padding-box;
+  box-shadow: 0 0 2px #fff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  color: #333;
+  line-height: 13px;
+  cursor: default;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice span {
+  word-wrap: break-word;
+  white-space: nowrap;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 12px;
+  height: 12px;
+  font-size: 1px;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice-disabled {
+  padding-right: 5px;
+  border: 1px solid #ccc;
+  background-color: #e4e4e4;
+  background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
+  color: #666;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice-focus {
+  background: #d4d4d4;
+}
+
+.chosen-container-multi .chosen-results {
+  margin: 0;
+  padding: 0;
+}
+
+.chosen-container-multi .chosen-drop .result-selected {
+  display: list-item;
+  color: #ccc;
+  cursor: default;
+}
+
+.chosen-container-active .chosen-single {
+  border: 1px solid #5897fb;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+  border: 1px solid #aaa;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-image: linear-gradient(#eee 20%, #fff 80%);
+  box-shadow: 0 1px 0 #fff inset;
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single div {
+  border-left: none;
+  background: transparent;
+}
+
+.chosen-container-active .chosen-choices {
+  border: 1px solid #5897fb;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.chosen-container-active .chosen-choices li.search-field input[type="text"] {
+  color: #222 !important;
+}
+
+.chosen-disabled {
+  opacity: 0.5 !important;
+  cursor: default;
+}
+
+.chosen-disabled .chosen-single {
+  cursor: default;
+}
+
+.chosen-disabled .chosen-choices .search-choice .search-choice-close {
+  cursor: default;
+}
+
+.chosen-rtl {
+  text-align: right;
+}
+
+.chosen-rtl .chosen-single {
+  overflow: visible;
+  padding: 0 8px 0 0;
+}
+
+.chosen-rtl .chosen-single span {
+  margin-right: 0;
+  margin-left: 26px;
+  direction: rtl;
+}
+
+.chosen-rtl .chosen-single-with-deselect span {
+  margin-left: 38px;
+}
+
+.chosen-rtl .chosen-single div {
+  right: auto;
+  left: 3px;
+}
+
+.chosen-rtl .chosen-single abbr {
+  right: auto;
+  left: 26px;
+}
+
+.chosen-rtl .chosen-choices li {
+  float: right;
+}
+
+.chosen-rtl .chosen-choices li.search-field input[type="text"] {
+  direction: rtl;
+}
+
+.chosen-rtl .chosen-choices li.search-choice {
+  margin: 3px 5px 3px 0;
+  padding: 3px 5px 3px 19px;
+}
+
+.chosen-rtl .chosen-choices li.search-choice .search-choice-close {
+  right: auto;
+  left: 4px;
+}
+
+.chosen-rtl.chosen-container-single .chosen-results {
+  margin: 0 0 4px 4px;
+  padding: 0 4px 0 0;
+}
+
+.chosen-rtl .chosen-results li.group-option {
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+.chosen-rtl.chosen-container-active.chosen-with-drop .chosen-single div {
+  border-right: none;
+}
+
+.chosen-rtl .chosen-search input[type="text"] {
+  padding: 4px 5px 4px 20px;
+  direction: rtl;
+}
+
+/* Logo link meta */
+.splogocarousel-field.lcp_logo_link,
+.splogocarousel-field.lcp_logo_link_ref {
+  display: inline-block;
+  float: left;
+  border: 0px;
+}
+.splogocarousel-field.lcp_logo_link {
+  padding-right: 0;
+}
+.splogocarousel-field.lcp_logo_link input {
+  width: 380px;
+}
+.splogocarousel-field.lcp_logo_link .splogocarousel-title{
+  margin-top: 5px;
+}
+.splogocarousel-field.lcp_logo_link_ref .splogocarousel-before-text {
+  float: left;
+  margin-right: 10px;
+}
+
+/* Setting page */
+.splogocarousel.lcpro_setting_options .splogocarousel-container {
+  border: 1px solid #cecece;
+}
+.lcpro_setting_options .splogocarousel-header-inner {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #cecece;
+  padding: 22px 28px;
+}
+.lcpro_setting_options .splogocarousel-header-inner h1 {
+  color: #23282d;
+  font-weight: 500;
+  line-height: 33px;
+}
+.lcpro_setting_options .splogocarousel-nav-background {
+  background-color: #ddd;
+  border-right: 1px solid #cecece;
+}
+.lcpro_setting_options .splogocarousel-nav ul li a {
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #cecece;
+  background-color: #efefef;
+  margin-bottom: 0;
+  color: #464646;
+  padding: 15px 15px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.lcpro_setting_options .splogocarousel-nav ul li a:hover {
+  color: #464646;
+}
+.lcpro_setting_options .splogocarousel-nav ul li a.splogocarousel-active{
+  box-shadow: 3px 0 0 0 #1dab87 inset;
+  background-color: #fff;
+  color: #1dab87;
+}
+.lcpro_setting_options .splogocarousel-buttons .button {
+  margin: 0 4px;
+  padding: 0px 16px;
+  height: 36px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 0;
+}
+.lcpro_setting_options .splogocarousel-buttons .button.splogocarousel-save {
+  background-color: #02cc7b;
+}
+.lcpro_setting_options .splogocarousel-buttons .button.splogocarousel-save:hover {
+  background-color: #02bb71;
+}
+.lcpro_setting_options .splogocarousel-buttons .button.splogocarousel-reset-section {
+  background-color: #77777c;
+}
+.lcpro_setting_options .splogocarousel-buttons .button.splogocarousel-reset-section:hover {
+  background-color: #616169;
+}
+.splogocarousel.lcpro_setting_options .splogocarousel-container {
+  border: 1px solid #cecece;
+}
+
+/* Logo Shortcode */
+#sp_lcp_shortcode_options .inside,
+#wpl_lcp_logo_link_option .inside,
+#wpl_lcp_pro_feature_list .inside {
+	padding: 0;
+	margin-top: 0;
+}
+#sp_lcp_shortcode_options.postbox {
+	border: 1px solid #cecece;
+	box-shadow: none;
+	overflow: hidden;
+}
+
+
+#sp_lcp_shortcode_options.postbox .postbox-header,
+#sp_lcp_shortcode_options.postbox .handlediv,
+#sp_lcp_shortcode_options.postbox .hndle {
+	display: none;
+}
+#sp_lcp_shortcode_options .sp_logo_carousel_shortcode .splogocarousel-metabox::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: -21px;
+  left: 0;
+  height: 20px;
+  background: #f1f1f1;
+  border-top: 1px solid #ddd;
+}
+#sp_logo_carousel_link_option .splogocarousel-wrapper:before{
+  content: none;
+}
+.sp_logo_carousel_shortcode .splogocarousel-nav-background {
+  display: none;
+}
+.sp_logo_carousel_shortcode .splogocarousel-nav-normal + .splogocarousel-content {
+  margin-left: 0;
+}
+#sp_lcp_shortcode_options.postbox #splcp_live_preview .postbox-header .hndle,
+#sp_lcp_shortcode_options.postbox #splcp_live_preview .postbox-header{
+  display: block;
+}
+.sp_logo_carousel_shortcode .splogocarousel-nav {
+  float: none;
+  width: 100%;
+  position: inherit;
+  background: #f1f1f1;
+  -webkit-box-shadow: inset 3px -1px 1px -1px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: inset 3px -1px 1px -1px rgba(0, 0, 0, 0.04);
+  box-shadow: inset 3px -1px 1px -1px rgba(0, 0, 0, 0.04);
+}
+.sp_logo_carousel_shortcode .splogocarousel-nav ul li {
+  /* margin-bottom: -1px; */
+  display: inline-block;
+}
+.sp_logo_carousel_shortcode .splogocarousel-nav-normal ul li a {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  background-color: #15845A;
+  border-top: 1px solid #15845A;
+  font-size: 13px;
+  padding: 16px 15px;
+  line-height: 1.4;
+  border-bottom: 1px solid #ddd;
+  color: #fff;
+  border-right: 1px solid #e2e2e1;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: -1px;
+}
+.sp_logo_carousel_shortcode .splogocarousel-nav > ul > li:last-child > a {
+  border-top: 1px solid #15845A;
+  border-right: 1px solid #e2e2e1;
+}
+.sp_logo_carousel_shortcode .splogocarousel-nav ul li .splogocarousel-section-active {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid #15845A;
+  background-color: #fff;
+  box-shadow: 0 3px 0 0 #15845A inset;
+  color: #464646;
+}
+.sp_logo_carousel_shortcode .splogocarousel-nav-normal ul li .splogocarousel-section-active:after {
+  display: none;
+}
+
+/*ShortCode Area*/
+.sp_lc_shortcode_header {
+  background-color: #11998e;
+  background: linear-gradient(  -45deg ,#25ce65,#0F8579);
+  padding: 22px 26px;
+  overflow: hidden;
+}
+.sp_lc_shortcode_header .sp_lc_shortcode_header_logo {
+  float: left;
+}
+.sp_lc_shortcode_header .sp_lc_shortcode_header_logo img {
+  display: block;
+  height: 32px;
+}
+.sp_lc_shortcode_header .sp_lc_shortcode_header_support {
+  float: right;
+  line-height: 28px;
+}
+.sp_lc_shortcode_header .sp_lc_shortcode_header_support a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 16px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.sp_lc_shortcode_header .sp_lc_shortcode_header_support span {
+  margin-left: 7px;
+}
+
+.lc_shortcode {
+  display: inline-flex;
+  width: 100%;
+  background-color: #fffdfd;
+  margin-bottom: 0;
+  border: 1px solid #ddd;
+}
+.lc_shortcode .lc-col-lg-6 {
+  border-right: 1px solid #dddddd;
+  width: 50%;
+}
+.lc_shortcode .lc-col-lg-6 .lc_shortcode_content {
+  padding: 42px 16px 68px;
+}
+.splogocarousel-nav.splogocarousel-nav-normal.splogocarousel-nav-metabox::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: -21px;
+  left: 0;
+  height: 20px;
+  background: #f1f1f1;
+  border-top: 1px solid #ddd;
+}
+.lc_shortcode .lc-col-lg-6 .lc_shortcode_content .lc-sc-code {
+  background-color: rgba(17, 153, 142, 0.08);
+  display: inline-block;
+  border: 1px solid rgba(17, 153, 142, 0.12);
+  padding: 10px 13px 10px 30px;
+	display: inline-block;
+	border: 1px solid rgba(17,153,142,.12);
+	background-image: url(../images/copy.svg);
+	background-size: 16px;
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	border-radius:2px ;
+	-webkit-border-radius:2px ;
+	-moz-border-radius:2px ;
+	-ms-border-radius:2px ;
+	-o-border-radius:2px ;
+}
+
+.lc_shortcode .lc-col-lg-6 .selectable,
+.sp-field-notice .sp-notice.sp-front-end-shortcode .lc-sc-code.selectable {
+  -webkit-touch-callout: all;
+  -webkit-user-select: all;
+  -khtml-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+  cursor: pointer;
+}
+.lc_shortcode .lc-col-lg-6:last-child {
+  border-right: none;
+}
+
+.lc_shortcode .lc-col-lg-6 .lc-shortcode-title {
+  font-weight: 500;
+  font-size: 17px !important;
+  padding-top: 0 !important;
+  color: #4c5158;
+}
+
+.lc_shortcode .lc-col-lg-6 p {
+  margin-top: 2px;
+  color: #4c5158;
+}
+
+.lc_shortcode .lc-col-lg-6 .back-image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.lc_shortcode .lc-col-lg-6 textarea {
+  border-color: transparent;
+  box-shadow: none;
+  background-color: #eee;
+  padding: 4px 6px;
+  resize: none;
+  text-align: center;
+  max-width: 100%;
+}
+
+.lc_shortcode .lc-copy-btn {
+  width: 16px;
+  margin-left: 11px;
+  top: 50%;
+  position: absolute;
+  margin-top: -8px;
+}
+.shortcode-wrap {
+  position: relative;
+}
+
+@media (max-width: 1200px) {
+  .lc_shortcode {
+    display: block;
+  }
+  .lc_shortcode .lc-col-lg-6 {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: none;
+  }
+
+  .lc_shortcode .lc-col-lg-6:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+.text-center {
+  text-align: center;
+}
+/* layout preset image size */
+.splogocarousel-field.splogocarousel-field-layout_preset.lcp_layout img {
+  width: 110px;
+}
+.lcpro_setting_options .splogocarousel-header-inner h1 img {
+  height: 28px;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-top: -3px;
+}
+.splogocarousel .splogocarousel-checkbox {
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+.splogocarousel-field.splogocarousel-field-checkbox .splogocarousel-help {
+  cursor: help;
+  padding: 5px;
+  font-size: 13px;
+  color: #aaa;
+  float: left;
+  margin-top: -4px;
+  position: relative;
+  margin-left: 3px;
+  top: auto;
+}
+.splogocarousel-field.splogocarousel-field-checkbox .splogocarousel-help.splogocarousel-title-help{
+  float: unset;
+}
+.splogocarousel-field-select select {
+  float: left;
+}
+.splogocarousel-field-select .splogocarousel-help {
+  cursor: help;
+  position: relative;
+  padding: 5px;
+  font-size: 13px;
+  color: #aaa;
+  display: inline-block;
+  padding-left: 7px;
+}
+.splogocarousel-field-text.lcp-read-more-text input {
+  max-width: 160px;
+}
+.splogocarousel-metabox .splogocarousel-field .chosen-container {
+  max-width: 500px;
+}
+
+/* Pro only css */
+
+.sp-lc-link-pro--only .splogocarousel--button:nth-child(1),
+.sp-lc-link-pro--only .splogocarousel--button:nth-child(2),
+.sp-lc-pro-only .splogocarousel--button:nth-child(2),
+.sp-lc-pro-only .splogocarousel--button:nth-child(3),
+.splogocarousel-field-layout_preset .splogocarousel--image.sp-lc-pro-only {
+  pointer-events: none;
+  color: #aaa;
+}
+.sp-lc-link-pro--only .splogocarousel--button:nth-child(1):after,
+.sp-lc-link-pro--only .splogocarousel--button:nth-child(2):after,
+.sp-lc-pro-only .splogocarousel--button:nth-child(2):after,
+.sp-lc-pro-only .splogocarousel--button:nth-child(3):after,
+.splogocarousel-field-layout_preset .splogocarousel--image.sp-lc-pro-only:after {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  color: #a5a5a5;
+  background-color: #e0e0e0;
+  font-weight: 500;
+  padding: 0 4px;
+  content: "PRO";
+  text-align: center;
+  font-size: 8px;
+  line-height: 11px;
+  opacity: 1;
+}
+.sp-lc-link-pro--only .splogocarousel--button:nth-child(1):after,
+.sp-lc-link-pro--only .splogocarousel--button:nth-child(2):after,
+.sp-lc-pro-only .splogocarousel--button:nth-child(2):after,
+.sp-lc-pro-only .splogocarousel--button:nth-child(3):after{
+  top:0;
+  right:0;
+}
+
+.splogocarousel-field.splogocarousel-field-typography .wp-picker-container .wp-color-result.button,
+.splogocarousel-field.splogocarousel-field-column.pro_only_field{
+  opacity: 0.7;
+  pointer-events: none;
+}
+.splogocarousel-field-image_select .splogocarousel--active figure:before, .splogocarousel-field-layout_preset .splogocarousel--active.splogocarousel--image:before{
+  opacity: 1;
+}
+.splogocarousel-field-slider .splogocarousel-fieldset {
+  max-width: 500px;
+  float: left;
+  margin-left: 20px;
+  opacity: .8;
+  pointer-events: none;
+}
+.splogocarousel-field-slider .ui-slider-range {
+  height: 10px;
+  border: none;
+  background: #ddd;
+  border-radius: 2px;
+}
+.splogocarousel-field-slider .ui-slider-handle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: -5px;
+  margin-left: -8px;
+  border: 1px solid #c5c5c5;
+  background: #fff;
+  border-radius: 2px;
+}
+.splogocarousel-field-slider .ui-slider {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  margin-right: 15px;
+  border: 1px solid #c5c5c5;
+  background: #fff;
+  border-radius: 2px;
+}
+.lcp_only_pro .splogocarousel--switcher{
+  background: #b3b6b7;
+  pointer-events: none;
+}
+.lcp_only_pro .splogocarousel--switcher .splogocarousel--ball::after {
+  content: "PRO";
+  position: relative;
+  text-align: center;
+  width: 24px;
+  float: right;
+  font-weight: 600;
+  font-size: 8px;
+  color: #a5a5a5;
+  opacity: 1;
+  line-height: 18px;
+}
+.lcp_only_pro {
+  opacity: .7;
+  pointer-events: none;
+}
+.splogocarousel-field.splogocarousel-field-column.pro_only_field .splogocarousel--input:last-child::after {
+  content: "PRO";
+  background-color: #d4d4d4;
+  padding: 2px 4px;
+  font-size: 8px;
+  border-radius: 2px;
+  height: 11px;
+  font-weight: 500;
+  letter-spacing: .25px;
+  line-height: 12px;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+.splogocarousel-field-dimensions_advanced .splogocarousel--input,
+.splogocarousel-field-dimensions_advanced .splogocarousel--input input{
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  opacity: .8;
+  pointer-events: none;
+}
+.tooltip_only_pro{
+  opacity: .7;
+  pointer-events: none;
+}
+/* Import export css */
+.splogocarousel-field.splogocarousel-field-button_set.lcp_export {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.splogocarousel-field-button_set.lcp_export .splogocarousel--button:hover,
+.splogocarousel-field.splogocarousel-field-custom_import.lcp_import button:hover {
+  background: #135e96;
+  border-color: #135e96;
+  color: #fff;
+}
+
+.splogocarousel-field.splogocarousel-field-custom_import.lcp_import button,
+.splogocarousel-field-button_set.lcp_export .splogocarousel--button {
+  background: #2271b1;
+  border-color: #2271b1;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 2.15384615;
+  min-height: 30px;
+  margin: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.sp-lcp-options .splogocarousel-field-select .splogocarousel-fieldset {
+  position: relative;
+}
+
+.splogocarousel-field.splogocarousel-field-custom_import.lcp_import .splogocarousel-fieldset {
+  position: relative;
+}
+
+.splogocarousel-field.splogocarousel-field-custom_import.lcp_import p {
+  padding-bottom: 0;
+  margin-bottom: 1px;
+}
+
+.splogocarousel-field.splogocarousel-field-custom_import.lcp_import button {
+  margin-top: 10px;
+  padding-bottom: 0px;
+}
+
+.splogocarousel-field.splogocarousel-field-custom_import.lcp_import .splogocarousel-help {
+  cursor: help;
+  position: absolute;
+  top: 80%;
+  transform: translateY(-50%);
+  padding: 5px;
+  font-size: 14px;
+  color: #aaa;
+  width: 15px;
+  left: 64px;
+}
+
+.splogocarousel-field.splogocarousel-field-select.lcp_post_ids .chosen-container .chosen-drop {
+  max-width: 400px;
+}
+
+.splogocarousel-field.splogocarousel-field-select.lcp_post_ids .chosen-container {
+  max-width: 400px;
+}
+
+.splogocarousel-field.splogocarousel-field-select.lcp_post_ids {
+  padding-top: 0;
+}
+
+.lcpro_setting_options .splogocarousel-header-inner h1.export-import img {
+  height: 24px;
+}
+
+.lcpro_setting_options.lcpro_tools .splogocarousel-nav-options li:nth-child(1) a {
+  background-image: url(../images/export-icon.svg);
+}
+
+.lcpro_setting_options.lcpro_tools .splogocarousel-nav-options li:nth-child(2) a {
+  background-image: url(../images/import.svg);
+}
+
+.lcpro_setting_options.lcpro_tools .splogocarousel-nav-options li:nth-child(1) a.splogocarousel-active {
+  background-image: url(../images/file-export-icon1.svg);
+}
+
+.lcpro_setting_options.lcpro_tools .splogocarousel-nav-options li:nth-child(2) a.splogocarousel-active {
+  background-image: url(../images/file-import-icon1.svg);
+}
+
+.lcpro_setting_options.lcpro_tools .splogocarousel-nav-options li a {
+  padding: 15px 30px;
+  background-size: 14px;
+  background-position: 10px center;
+  background-repeat: no-repeat;
+}
+div#splcp_live_preview:after {
+  content: '';
+  height: 22px;
+  background: #f0f0f1;
+  position: absolute;
+  bottom: -22px;
+  right: -1px;
+  border-top: 1px solid #ccc;
+  left: -2px;
+  left: 0;
+  z-index: 9999;
+}
+div#splcp_live_preview {
+  position: relative;
+  margin-bottom: 22px;
+}
+#splcp-preview-box .sp-logo-carousel-section-title {
+  padding: 0;
+}

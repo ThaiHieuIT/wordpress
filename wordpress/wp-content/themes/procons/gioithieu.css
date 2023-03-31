@@ -1,0 +1,182 @@
+*{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+.bg-banner{
+    background-image: url(https://procons.com.vn/wp-content/uploads/2022/10/gioi_thieu-scaled.jpg);
+    background-repeat: no-repeat;
+    height: 510px;
+    width: 100%;
+    background-position-y: -650px;
+    background-position-x: -500px;
+    position: relative;
+    padding: 0;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0009804D;
+}
+
+.title-banner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-banner h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.title-banner p, .title-banner a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.secsion{
+    height: 105px;
+}
+
+.secsion .title-tongquan{
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.title-tongquan h3{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3e449c;
+}
+
+.bg-tongquan{
+    background-image: url(https://procons.com.vn/wp-content/uploads/2022/10/bg1.png);
+    width: 100%;
+    height: 393px;
+}
+
+.bg-tongquan  .container ,
+.bg-tongquan  .row,
+.bg-tamnhin .container,
+.bg-tamnhin .row {
+    height: 100%;
+}
+.bg-tongquan  .col-6 {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+}
+.bg-tongquan img {
+    height: 372px;
+    width: 550px;
+}
+.box-content-gioithieu{
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+.box-content-gioithieu p {
+    line-height: 1.9;
+    margin: 0;
+    word-spacing: 6px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #7a7a7a;
+}
+
+.gachchia {
+    width: 100% !important;
+    height: 1px;
+    background-color: #3E449C54;
+    margin: 50px 0 0 0;
+    width: 64%;
+}
+
+
+.bg-tamnhin{
+    background-image: url(https://procons.com.vn/wp-content/uploads/2022/10/bg.png);
+    width: 100%;
+    height: 423px;
+}
+
+.bg-tamnhin .col-6{
+    padding: 10px;
+}
+
+.bg-tamnhin img{
+    height: 100%;
+    padding: 10px;
+}
+
+.box-content-tamnhin{
+    border-top: 1px solid #000;
+    height: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-radius: 10px;
+}
+
+.box-content-tamnhin h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #2a2b5b;
+    margin-bottom: 25px ;
+}
+
+.box-content-tamnhin ul{
+    margin: 0 0 23px 45px;
+}
+
+.box-content-tamnhin ul li{
+    color: #7a7a7a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    word-spacing: 5px;
+}
+
+.khachhang{
+    background-color: #F5F5F5;
+}
+
+.khachhang .item{
+    margin: 0 19px;
+}
+
+.title-khachhang h3{
+    margin-top: 50px;
+    padding: 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3e449c;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.khachhang .item-khachhang img{
+    height: 187px;
+}
+
+.khachhang .item:hover img {
+    background-color: #ccc;
+}

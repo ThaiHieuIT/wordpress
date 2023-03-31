@@ -1,0 +1,97 @@
+# Translation of Themes - Hello Elementor in Vietnamese
+# This file is distributed under the same license as the Themes - Hello Elementor package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-09-08 15:06:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Themes - Hello Elementor\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "A plain-vanilla & lightweight theme for Elementor page builder"
+msgstr "Theme đơn giản và nhẹ cho Elementor page builder"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Hello Elementor"
+msgstr "Hello Elementor"
+
+#: includes/admin-functions.php:49 includes/customizer/elementor-upsell.php:42
+msgid "Install Elementor"
+msgstr "Cài đặt Elementor"
+
+#: includes/admin-functions.php:40 includes/customizer/elementor-upsell.php:59
+#: includes/customizer/elementor-upsell.php:62
+msgid "Activate Elementor"
+msgstr "Kích hoạt Elementor"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Đã tắt bình luận."
+
+#. translators: 1: number of comments
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s Response"
+msgid_plural "%1$s Responses"
+msgstr[0] "%1$s bình luận"
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One Response"
+msgstr "Một bình luận"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:50 template-parts/search.php:55
+msgid "newer %s"
+msgstr "Mới hơn: %s"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:48 template-parts/search.php:53
+msgid "%s older"
+msgstr "cũ hơn %s"
+
+#: template-parts/search.php:41
+msgid "It seems we can't find what you're looking for."
+msgstr "Không tìm thấy điều bạn cần."
+
+#: template-parts/search.php:16
+msgid "Search results for: "
+msgstr "Kết quả tìm kiếm:"
+
+#: template-parts/dynamic-footer.php:33 template-parts/dynamic-header.php:36
+#: template-parts/header.php:29
+msgid "Home"
+msgstr "Trang chủ"
+
+#: template-parts/single.php:25
+msgid "Tagged "
+msgstr "Thẻ"
+
+#: template-parts/404.php:19
+msgid "It looks like nothing was found at this location."
+msgstr "Không tìm thấy."
+
+#: template-parts/404.php:15
+msgid "The page can&rsquo;t be found."
+msgstr "Không tìm thấy trang."
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Elementor Team"
+msgstr "Nhóm Elementor"
